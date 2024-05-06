@@ -1,5 +1,6 @@
 library(tidyverse)
 library(openxlsx)
+library(sf)
 
 # First thing is to build out the join tables and to finalize the clean version.
 # This will be the entire Education database that will be used to highlight certain information.
