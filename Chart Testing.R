@@ -16,11 +16,10 @@ Population = read.xlsx('Final Data.xlsx', sheet = 3, check.names = FALSE)
 Weather = read.xlsx('Final Data.xlsx', sheet = 4, check.names = FALSE)
 SFHP = read.xlsx('Final Data.xlsx', sheet = 5, check.names = FALSE)
 
-selected_city <- filter(SFHP, City == c('Abington','Acton')) %>%
+selected_city <- SFHP %>%
   pivot_longer(cols = -City, names_to = "Year", values_to = "Price") %>%
   mutate(Year = as.numeric(gsub("`", "", Year)))
 
-fig <- plot_ly(selected_city, x = ~Year, y = ~Price, type = 'scatter', mode = 'lines+markers')
 
 fig
 
@@ -29,12 +28,8 @@ fig
 
 library(plotly)
 
-x <- c(1:100)
-random_y <- rnorm(100, mean = 0)
-data <- data.frame(x, random_y)
-
-fig <- plot_ly(data, x = ~x, y = ~random_y, type = 'scatter', mode = 'lines')
-
-fig
-
-
+plot_ly()
+plot_ly(x = 1:10, y = 1:10)
+d <- diamonds[sample(nrow(diamonds), 1000), ]
+plot_ly(d, x = ~carat, y = ~price, text = ~paste("Clarity: ", clarity),
+        mode = "markers", color = ~carat, size = ~carat, marker = list(line = list(color = "black")))

@@ -1,6 +1,5 @@
 library(tidyverse)
 library(openxlsx)
-library(sf)
 
 # First thing is to build out the join tables and to finalize the clean version.
 # This will be the entire Education database that will be used to highlight certain information.
@@ -87,27 +86,163 @@ Population_df <- City_Join_df %>%
 Weather_df <- read.csv('weather.csv',check.names = FALSE)
 
 # Finally finish the Single Family Home Prices table
+SFHP_2011 <- read.csv('SFHP_GB_2021_Clean.csv',check.names = FALSE) %>%
+  select(-`2021 Median Price`,
+         -`2020 Median Price`,
+         -`2016 Median Price`,
+         -`2021 DOM`,
+         -`2020 DOM`,
+         -`One-Year Change`,
+         -`Unnamed: 0`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2011 Median Price`,
+         `Ten-Year % Change in Price` = `10-Year % Change In Price`,
+         `Five-Year % Change in Price`= `Five-Year % Change In Price`) %>%
+  select(City, `Median Price`, everything()) %>%
+  mutate(across(-c(1:2), ~ as.integer(NA)),
+         Year = 2011,
+         `Days on Market` = as.integer(NA)) %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
 
-Single_Home_Prices_df <- City_Join_df %>%
-  left_join(.,
-            read.csv('SFHP_GB_2020_Clean.csv',check.names = FALSE) %>%
-              select(City = `City/Town`,
-                     `2018` = `2018 Median Price`,
-                     `2019` = `2019 Median Price`),
-            by = 'City') %>%
-  left_join(.,read.csv('SFHP_GB_2021_Clean.csv',check.names = FALSE) %>%
-              select(City = `City/Town`,
-                     `2020` = `2020 Median Price`),
-            by = 'City') %>%
-  left_join(.,read.csv('SFHP_GB_2022_Clean.csv',check.names = FALSE) %>%
-              select(City = `City/Town`,
-                     `2021` = `2021 Median Price`),
-            by = 'City') %>%
-  left_join(.,read.csv('SFHP_GB_2023_Clean.csv',check.names = FALSE) %>%
-              select(City = `City/Town`,
-                     `2022` = `2022 Median Price`,
-                     `2023` = `2023 Median Price`),
-            by = 'City')
+SFHP_2016 <- read.csv('SFHP_GB_2021_Clean.csv',check.names = FALSE) %>%
+  select(-`2021 Median Price`,
+         -`2020 Median Price`,
+         -`2011 Median Price`,
+         -`2021 DOM`,
+         -`2020 DOM`,
+         -`One-Year Change`,
+         -`Unnamed: 0`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2016 Median Price`,
+         `Ten-Year % Change in Price` = `10-Year % Change In Price`,
+         `Five-Year % Change in Price`= `Five-Year % Change In Price`) %>%
+  select(City, `Median Price`, everything()) %>%
+  mutate(across(-c(1:2), ~ as.integer(NA)),
+         Year = 2016,
+         `Days on Market` = as.integer(NA)) %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+SFHP_2018 <- read.csv('SFHP_GB_2020_Clean.csv',check.names = FALSE) %>%
+  select(-`2019 Median Price`,
+         -`2019 DOM`,
+         -`Unnamed: 0`,
+         -`One-Year Change`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2018 Median Price`,
+         `Days on Market` = `2018 DOM`) %>%
+  select(City, `Median Price`, `Days on Market`, everything()) %>%
+  mutate(across(-c(1:3), ~ as.integer(NA)),
+         Year = 2018,
+         `Days on Market` = as.integer(`Days on Market`))  %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+SFHP_2019 <- read.csv('SFHP_GB_2020_Clean.csv',check.names = FALSE) %>%
+  select(-`2018 Median Price`,
+         -`2018 DOM`,
+         -`Unnamed: 0`,
+         -`One-Year Change`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2019 Median Price`,
+         `Days on Market` = `2019 DOM`) %>%
+  mutate(Year = 2019,
+         `Days on Market` = as.integer(`Days on Market`),
+         `One-Year % Change in Price` = as.integer(str_remove(`One-Year % Change in Price`, "%$")),
+         `Five-Year % Change in Price` = as.integer(str_remove(`Five-Year % Change in Price`, "%$")),
+         `Ten-Year % Change in Price` = as.integer(str_remove(`Ten-Year % Change in Price`, "%$"))) %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+SFHP_2020 <- read.csv('SFHP_GB_2021_Clean.csv',check.names = FALSE) %>%
+  select(-`2021 Median Price`,
+         -`2016 Median Price`,
+         -`2011 Median Price`,
+         -`2021 DOM`,
+         -`One-Year Change`,
+         -`Unnamed: 0`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2020 Median Price`,
+         `Days on Market` = `2020 DOM`,
+         `Ten-Year % Change in Price` = `10-Year % Change In Price`,
+         `Five-Year % Change in Price`= `Five-Year % Change In Price`) %>%
+  select(City, `Median Price`, `Days on Market`, everything()) %>%
+  mutate(across(-c(1:3), ~ as.integer(NA)),
+         Year = 2020)  %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+SFHP_2021 <- read.csv('SFHP_GB_2021_Clean.csv',check.names = FALSE) %>%
+  select(-`2020 Median Price`,
+         -`2016 Median Price`,
+         -`2011 Median Price`,
+         -`2020 DOM`,
+         -`One-Year Change`,
+         -`Unnamed: 0`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2021 Median Price`,
+         `Days on Market` = `2021 DOM`,
+         `Ten-Year % Change in Price` = `10-Year % Change In Price`,
+         `Five-Year % Change in Price` = `Five-Year % Change In Price`) %>%
+  mutate(Year = 2021,
+         `One-Year % Change in Price` = as.integer(str_remove(`One-Year % Change in Price`, "%$")),
+         `Five-Year % Change in Price` = as.integer(str_remove(`Five-Year % Change in Price`, "%$")),
+         `Ten-Year % Change in Price` = as.integer(str_remove(`Ten-Year % Change in Price`, "%$"))) %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+SFHP_2022 <- read.csv('SFHP_GB_2022_Clean.csv',check.names = FALSE) %>%
+  select(-`2021 Median Price`,
+         -`2021 Days on Market`,
+         -`One-Year Change`,
+         -`Unnamed: 0`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2022 Median Price`,
+         `Days on Market` = `2022 Days on Market`,
+         `Ten-Year % Change in Price` = `10-Year % Change in Price`) %>%
+  mutate(Year = 2022,
+         `One-Year % Change in Price` = as.integer(str_remove(`One-Year % Change in Price`, "%$")),
+         `Five-Year % Change in Price` = as.integer(str_remove(`Five-Year % Change in Price`, "%$")),
+         `Ten-Year % Change in Price` = as.integer(str_remove(`Ten-Year % Change in Price`, "%$"))) %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+SFHP_2023 <- read.csv('SFHP_GB_2023_Clean.csv',check.names = FALSE) %>%
+  select(-`2022 Median Price`,
+         -`2022 Days on Market`,
+         -`One-Year % Change Days on Market`,
+         -`Unnamed: 0`) %>%
+  rename(City = `City/Town`,
+         `Median Price` = `2023 Median Price`,
+         `Days on Market` = `2023 Days on Market`) %>%
+  mutate(Year = 2022,
+         `One-Year % Change in Price` = as.integer(str_remove(`One-Year % Change in Price`, "%$")),
+         `Five-Year % Change in Price` = as.integer(str_remove(`Five-Year % Change in Price`, "%$")),
+         `Ten-Year % Change in Price` = as.integer(str_remove(`Ten-Year % Change in Price`, "%$"))) %>%
+  select(City, Year, `Median Price`, `Days on Market`, everything())
+
+sapply(SFHP_2011, typeof)
+sapply(SFHP_2011, typeof)
+sapply(SFHP_2016, typeof)
+sapply(SFHP_2018, typeof)
+sapply(SFHP_2019, typeof)
+sapply(SFHP_2020, typeof)
+sapply(SFHP_2021, typeof)
+sapply(SFHP_2022, typeof)
+sapply(SFHP_2023, typeof)
+
+
+colnames(SFHP_2011)
+colnames(SFHP_2016)
+colnames(SFHP_2018)
+colnames(SFHP_2019)
+colnames(SFHP_2020)
+colnames(SFHP_2021)
+colnames(SFHP_2022)
+colnames(SFHP_2023)
+
+Single_Home_Prices_df  <- bind_rows(SFHP_2011,
+                                    SFHP_2016,
+                                    SFHP_2018,
+                                    SFHP_2019,
+                                    SFHP_2020,
+                                    SFHP_2021,
+                                    SFHP_2022,
+                                    SFHP_2023)
 
 
 # Finally save the data frames to be used in the Shiny App
