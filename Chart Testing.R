@@ -22,4 +22,10 @@ colnames(Population) <- gsub("\\.", " ", colnames(Population))
 colnames(Weather) <- gsub("\\.", " ", colnames(Weather))
 colnames(SFHP) <- gsub("\\.", " ", colnames(SFHP))
 
+plot <- plot_ly(SFHP, x = ~Year, y = ~`Median Price`, color = ~City, type = 'scatter', mode = 'lines+markers') %>%
+  layout(title = "Median Price Over Years by City",
+         xaxis = list(title = "Year"),
+         yaxis = list(title = "Median Price"),
+         legend = list(title = "City"))
 
+plot
