@@ -242,7 +242,8 @@ Single_Home_Prices_df  <- bind_rows(SFHP_2011,
                                     SFHP_2020,
                                     SFHP_2021,
                                     SFHP_2022,
-                                    SFHP_2023)
+                                    SFHP_2023) %>%
+  mutate(`Median Price` = as.integer(gsub("\\$|,", "", `Median Price`)))
 
 
 # Finally save the data frames to be used in the Shiny App
