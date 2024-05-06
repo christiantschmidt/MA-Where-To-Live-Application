@@ -15,6 +15,15 @@ Population = read.xlsx('Final Data.xlsx', sheet = 3, check.names = FALSE)
 Weather = read.xlsx('Final Data.xlsx', sheet = 4, check.names = FALSE)
 SFHP = read.xlsx('Final Data.xlsx', sheet = 5, check.names = FALSE)
 
+Cities <- SFHP %>% select(City) %>%
+  distinct(City) %>%
+  arrange(City) %>%
+  pull(.,City)
+
+# menuItem(text = 'Map', tabName = 'map',
+#          icon = icon('map', lib = 'font-awesome')),
+#icon = icon('equals', lib = 'font-awesome'
+
 # UI ---------------------------------------------------------------------------
 ui <- dashboardPage(
   title = 'MA Where to Live Application',
@@ -28,18 +37,36 @@ ui <- dashboardPage(
     elevation = 4,
     sidebarMenu(
       id = 'tabs',
-      # menuItem(text = 'Map', tabName = 'map',
-      #          icon = icon('map', lib = 'font-awesome')),
-      menuItem(text = 'Compare', tabName = 'compare',
-               icon = icon('equals', lib = 'font-awesome')))),
+      menuItem(text = 'Compare', tabName = 'compare'))),
   ## Body ----------------------------------------------------------------------
   body = dashboardBody(
     tabItems(
       tabItem(tabName = 'compare',
               fluidRow(
-                box(width = 6),
-                box(width = 6)
-                )))))
+                box(title = 'Select First Citiy to Compare',
+                    width = 6,
+                    pickerInput(inputId = 'first_city',
+                                label = 'First City',
+                                choices = Cities,
+                                #selected = Cities[1],
+                                multiple = FALSE,
+                                options = list(`live-search` = TRUE,
+                                               `virtual-scroll` = TRUE))),
+                box(title = 'Select Second City to Compare',
+                    width = 6,
+                    pickerInput(inputId = 'second_city',
+                                label = 'Second City',
+                                choices = Cities,
+                                #selected = Cities[1],
+                                multiple = FALSE,
+                                options = list(`live-search` = TRUE,
+                                               `virtual-scroll` = TRUE)))
+                ),
+              fluidRow(
+                box(title = 'Charts',
+                    width = 12,
+                    )
+              )))))
 
 # Server -----------------------------------------------------------------------
 server <- function(input, output, session) {

@@ -26,6 +26,11 @@ plot <- plot_ly(SFHP, x = ~Year, y = ~`Median Price`, color = ~City, type = 'sca
   layout(title = "Median Price Over Years by City",
          xaxis = list(title = "Year"),
          yaxis = list(title = "Median Price"),
-         legend = list(title = "City"))
+         legend = list(title = "City")) %>%
+  layout(hovermode = "x unified")
 
 plot
+
+SFHP %>% select(City) %>%
+  distinct(City) %>%
+  pull(.,City)
