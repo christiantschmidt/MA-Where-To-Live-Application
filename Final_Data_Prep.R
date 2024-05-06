@@ -1,4 +1,5 @@
 library(tidyverse)
+library(openxlsx)
 
 # First thing is to build out the join tables and to finalize the clean version.
 # This will be the entire Education database that will be used to highlight certain information.
@@ -81,6 +82,9 @@ Population_df <- City_Join_df %>%
   rename('Location' := 'City') %>%
   left_join(.,read.csv('Population_Estimate.csv',check.names = FALSE), by ='Location')
 
+# Also download weather to put in the final excel worksheet
+Weather_df <- read.csv('weather.csv',check.names = FALSE)
+
 # Finally finish the Single Family Home Prices table
 
 Single_Home_Prices_df <- City_Join_df %>%
@@ -105,5 +109,24 @@ Single_Home_Prices_df <- City_Join_df %>%
             by = 'City')
 
 
-# Need to make a note of the fact that there are some NA values in the education df
+# Finally save the data frames to be used in the Shiny App
+# Create a workbook
+wb <- createWorkbook()
+
+# Add sheets to the workbook
+addWorksheet(wb, "Education")
+addWorksheet(wb, "Crime")
+addWorksheet(wb, "Population")
+addWorksheet(wb, "Weather")
+addWorksheet(wb, "Single Family Home Prices")
+
+# Write data frames to the respective sheets
+writeData(wb, "Education", Education_df)
+writeData(wb, "Crime", Crime_df)
+writeData(wb, "Population", Population_df)
+writeData(wb, "Weather", Weather_df)
+writeData(wb, "Single Family Home Prices", Single_Home_Prices_df)
+
+# Save the workbook
+saveWorkbook(wb, "Final Data.xlsx", overwrite = TRUE)
 
