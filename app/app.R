@@ -7,14 +7,9 @@ library(waiter)
 library(tidyverse)
 library(shinythemes)
 library(openxlsx)
-library(rio)
 
 # Read Data --------------------------------------------------------------------
-github_link = 'https://github.com/christiantschmidt/MA-Where-To-Live-Application/blob/main/Final%20Data.xlsx'
-test <- rio::import(github_link)
-
-
-Education = read.xlsx(url, sheet = 1, check.names = FALSE)
+Education = read.xlsx('Final Data.xlsx', sheet = 1, check.names = FALSE)
 Crime = read.xlsx('Final Data.xlsx', sheet = 2, check.names = FALSE)
 Population = read.xlsx('Final Data.xlsx', sheet = 3, check.names = FALSE)
 Weather = read.xlsx('Final Data.xlsx', sheet = 4, check.names = FALSE)

@@ -1,0 +1,12 @@
+name: test
+title: test
+username: ynr0pw-christian-schmidt
+account: ynr0pw-christian-schmidt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11940911
+bundleId: 8580065
+url: https://ynr0pw-christian-schmidt.shinyapps.io/test/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
