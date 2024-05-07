@@ -14,29 +14,72 @@ City_Join_df <- read.csv('SFHP_GB_2023_Clean.csv',check.names = FALSE) %>%
 
 # Now join the dataframes
 # I decided to no longer include Attendance as the data no longer has meaning for me
-Attendance_df <- read.csv('Attendance_df.csv',check.names = FALSE) %>%
-  rename('City' := 'Town',
-         'Total Attendance' := 'Total'
-         ) %>%
-  select(-`Town Code`) %>%
-  mutate(City = if_else(City == "State", "Massachusetts", City))
+District_Info <- read.csv('Data/search.xls.csv',check.names = FALSE) %>%
+  select(`District Name` = `ï»¿Org Name`, Town)
+
+# Attendance_df <- read.csv('Attendance_df.csv',check.names = FALSE) %>%
+#   left_join(District_Info %>% rename(Town = `District Name`, City = Town), by = 'Town') %>%
+#   mutate(City = ifelse(is.na(City), Town, City)) %>%
+#   select(City, everything(), -Town,-`Town Code`) %>%
+#   rename('Total Attendance' := 'Total') %>%
+#   mutate(City = if_else(City == "State", "Massachusetts", City)) %>%
+#   group_by(City) %>%
+#   summarise_all(sum)
 
 Enrollment_df <- read.csv('Enrollment_df.csv',check.names = FALSE) %>%
-  rename('City' := 'District Name',
+  left_join(District_Info, by = 'District Name') %>%
+  rename('City' := 'Town',
          'Total Enrollment' := 'Total') %>%
-  select(-`District Code`) %>%
-  mutate(City = if_else(City == "State Totals", "Massachusetts", City))
+  select(-`District Code`, -`District Name`, -`Total Enrollment`) %>%
+  mutate(City = if_else(City == "State Totals", "Massachusetts", City)) %>%
+  mutate(across(-c(`End of School Year`, `City`), as.integer)) %>%
+  group_by(`City`,`End of School Year`) %>%
+  summarise_all(sum, na.rm = TRUE) %>%
+  ungroup() %>%
+  mutate(`Total Enrollment` = rowSums(across(!c(`City`, `End of School Year`))))
+
+# Graduation Rate is weird, lets fix it by accounting for District
 
 Graduation_Rate_df <- read.csv('Graduation_Rate_df.csv',check.names = FALSE) %>%
-  rename('City' := 'District Name') %>%
-  select(-`District Code`) %>%
-  mutate(City = if_else(City == "State Totals", "Massachusetts", City))
+  filter(grepl('District', `District Name`)) %>%
+  left_join(District_Info, by = 'District Name') %>%
+  rbind(., read.csv('Graduation_Rate_df.csv',check.names = FALSE) %>%
+          filter(!grepl('District', `District Name`)) %>%
+          left_join(District_Info, by = 'District Name')) %>%
+  arrange(`District Name`) %>%
+  select(-`District Code`, -`District Name`) %>%
+  rename('City' := 'Town') %>%
+  mutate(City = if_else(City == "State Totals", "Massachusetts", City),
+         `# in Cohort` = as.integer(gsub(",","",`# in Cohort`))) %>%
+  filter(!is.na(City)) %>%
+  mutate(across(-c(`End of School Year`, City, `# in Cohort`), ~ .x / 100),
+         across(-c(`End of School Year`, City, `# in Cohort`), ~ .x * `# in Cohort`)) %>%
+  group_by(`End of School Year`, City) %>%
+  summarise(across(everything(), sum, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(across(-c(`End of School Year`, City, `# in Cohort`), ~ .x / `# in Cohort`)) %>%
+  arrange(`City`)
 
 Teacher_df <- read.csv('Teacher_df.csv',check.names = FALSE) %>%
-  rename('City' := 'District Name') %>%
-  select(-`District Code`) %>%
-  mutate(City = if_else(City == "State Totals", "Massachusetts", City))
-
+  filter(grepl('District', `District Name`)) %>%
+  left_join(District_Info, by = 'District Name') %>%
+  rbind(., read.csv('Teacher_df.csv',check.names = FALSE) %>%
+          filter(!grepl('District', `District Name`)) %>%
+          left_join(District_Info, by = 'District Name')) %>%
+  arrange(`District Name`) %>%
+  select(-`District Code`, -`District Name`) %>%
+  rename('City' := 'Town') %>%
+  mutate(City = if_else(City == "State Totals", "Massachusetts", City)) %>%
+  select(`End of School Year`, `City`, `Total # of Teachers (FTE)`,`% of Teachers Licensed`,`Student / Teacher Ratio`) %>%
+  mutate(`Student / Teacher Ratio` = as.double(gsub(" to 1","",`Student / Teacher Ratio`), na.rm = TRUE),
+         `Total # of Teachers (FTE)` = as.double(gsub(",","",`Total # of Teachers (FTE)`)),
+         across(-c(`End of School Year`, City, `Total # of Teachers (FTE)`, `Student / Teacher Ratio`), ~ .x / 100),
+         across(-c(`End of School Year`, City, `Total # of Teachers (FTE)`), ~ .x * `Total # of Teachers (FTE)`)) %>%
+  group_by(`End of School Year`, City) %>%
+  summarise(across(everything(), sum, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(across(-c(`End of School Year`, City, `Total # of Teachers (FTE)`), ~ .x / `Total # of Teachers (FTE)`))
+         
 Education_df <- City_Join_df %>%
   left_join(.,Enrollment_df, by = 'City') %>%
   left_join(.,Graduation_Rate_df, by = c('City','End of School Year')) %>%
