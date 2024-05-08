@@ -4,9 +4,7 @@
     <img src="https://github.com/christiantschmidt/MA-Where-To-Live-Application/blob/main/Screenshot%202024-05-08%20184044.png" alt="Dashboard Screenshot" width = "1080" height = "600">
   </a>
 </div>
-<br />
-      <br />
-      
+<br />   
 <!-- ABOUT THE PROJECT -->
 <div>
   <h3>About The Project</h3>
