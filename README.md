@@ -7,7 +7,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Where did this idea come from">Where did this idea come from</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -29,6 +29,6 @@
 </details>
 
 <br />
-<h3> Where did this idea come from </h3>
+## Where did this idea come from
 
 https://www.bostonmagazine.com/property/boston-single-family-home-prices-by-town-in-2023/
