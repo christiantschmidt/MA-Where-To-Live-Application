@@ -1,3 +1,4 @@
+# Libraries --------------------------------------------------------------------
 library(tidyverse)
 library(openxlsx)
 
@@ -26,6 +27,7 @@ District_Info <- read.csv('Data/search.xls.csv',check.names = FALSE) %>%
 #   group_by(City) %>%
 #   summarise_all(sum)
 
+# Education --------------------------------------------------------------------
 Enrollment_df <- read.csv('Enrollment_df.csv',check.names = FALSE) %>%
   left_join(District_Info, by = 'District Name') %>%
   rename('City' := 'Town',
@@ -85,6 +87,7 @@ Education_df <- City_Join_df %>%
   left_join(.,Graduation_Rate_df, by = c('City','End of School Year')) %>%
   left_join(.,Teacher_df, by = c('City','End of School Year'))
 
+# Crime --------------------------------------------------------------------
 # Now do criminal data and only select the total aggregation of main crimes
 Number_of_Actual_Offenses_df <- read.csv('Number_of_Actual_Offenses_df.csv',check.names = FALSE) %>%
   select(Location,
@@ -120,14 +123,17 @@ Crime_df <- City_Join_df %>%
   left_join(.,Summary_Offense_Rate_per_1000_df, by = c('Location','Year')) %>%
   select(Location, Year, everything())
 
+# Population --------------------------------------------------------------------
 # Do a quick table on population
 Population_df <- City_Join_df %>%
   rename('Location' := 'City') %>%
   left_join(.,read.csv('Population_Estimate.csv',check.names = FALSE), by ='Location')
 
+# Weather --------------------------------------------------------------------
 # Also download weather to put in the final excel worksheet
 Weather_df <- read.csv('weather.csv',check.names = FALSE)
 
+# Single Family Housing Prices --------------------------------------------------------------------
 # Finally finish the Single Family Home Prices table
 SFHP_2011 <- read.csv('SFHP_GB_2021_Clean.csv',check.names = FALSE) %>%
   select(-`2021 Median Price`,
@@ -288,7 +294,7 @@ Single_Home_Prices_df  <- bind_rows(SFHP_2011,
                                     SFHP_2023) %>%
   mutate(`Median Price` = as.integer(gsub("\\$|,", "", `Median Price`)))
 
-
+# Workbook ---------------------------------------------------------------------
 # Finally save the data frames to be used in the Shiny App
 # Create a workbook
 wb <- createWorkbook()
