@@ -6,12 +6,25 @@
 </div>
       
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<div>
+  <h3>About The Project</h3>
+  <p>The MA Where to Live Project originated from a table discovered on 
+    <a href="https://www.bostonmagazine.com/property/boston-single-family-home-prices-by-town-in-2023/"><strong>BostonMagazine.com</strong></a>
+    This table depicted average home prices across the Greater Boston Area.
+    
+  </p>
+</div> 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The MA Where to Live Project originated from a table discovered on BostonMagazine.com
+This table depicted average home prices across the Greater Boston Area.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Given Massachusetts' reputation for high housing costs, the project aims to assist potential homeowners in assessing whether these prices are justified.
+we are considering factors like crime rates and education quality to determine our rankings.
 
+To achieve this, data is sourced from various tables on BostonMagazine.com, providing historical single-family home pricing data.
+Additionally, data available on mass.gov is utilized to enrich the analysis.
+
+It's crucial to emphasize that the project focuses solely on cities within Massachusetts, comparing and contrasting their characteristics.
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
