@@ -1,9 +1,12 @@
 <h1 align="center"> MA-Where-To-Live-Application </h1>
-  <p align ="center">
-  Summary: Shiny Dashboard application with data sourced from multiple locations, housed on GitHub, and hosted on shinyapps.io
-    <br />
-    <br />
+<div>
+  <a href="https://github.com/christiantschmidt">
     <img src="https://github.com/christiantschmidt/MA-Where-To-Live-Application/blob/main/Screenshot%202024-05-08%20184044.png" alt="Dashboard Screenshot" width = "1080" height = "600>
+  </a>
+</div>
+    <br />
+    <br />
+    
       <br />
       <br />
   </p>
