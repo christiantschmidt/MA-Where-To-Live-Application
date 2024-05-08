@@ -10,7 +10,8 @@
 <!-- ABOUT THE PROJECT -->
 <div>
   <h3>About The Project</h3>
-  <p>The MA Where to Live Project originated from a table discovered on 
+  <p>
+    The MA Where to Live Project originated from a table discovered on 
     <a href="https://www.bostonmagazine.com/property/boston-single-family-home-prices-by-town-in-2023/"><strong>BostonMagazine.com</strong></a>
     This table depicted average home prices across the Greater Boston Area.
     
