@@ -15,7 +15,8 @@
     I thought back to when I bought a house and wished there was some sort of database that not only showed prices, but could also show important stats regarding education and crime rates too.
     There are paid services out there that score nationwide neighborhoods and towns (i.e. <a href=https://www.niche.com/"><strong>Niche</strong></a>), but I wanted to focus more locally on MA.
   </p>
+  <h3>How the Shiny App Works</h3>
   <p>
-    Massachusetts is 
+    
   </p>
 </div> 
