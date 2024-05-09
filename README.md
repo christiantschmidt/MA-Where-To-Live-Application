@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"><a href="https://example.com](http://ynr0pw-christian-schmidt.shinyapps.io/MA-Where-to-Live-Project)">MA Where-To-Live Application</a></h1>
+<h1 style="text-align: center;"><a href="https://ynr0pw-christian-schmidt.shinyapps.io/MA-Where-to-Live-Project/">MA Where-To-Live Application</a></h1>
 <div>
   <a href="https://github.com/christiantschmidt">
     <img src="https://github.com/christiantschmidt/MA-Where-To-Live-Application/blob/main/Screenshot%202024-05-08%20184044.png" alt="Dashboard Screenshot" width="900" height="540">
