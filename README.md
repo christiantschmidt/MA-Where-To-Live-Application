@@ -36,5 +36,8 @@
     However, <strong>Schools and Crime</strong> are not something that you can change so easily.
     That is why I decided to focus on these two data points, as well as home prices, so potential buyers can compare if it's really worth living in a higher-priced area vs. lower-priced areas.
   </p>
-</div> 
+</div>
+<div>
+  <h4>Click <a href="https://ynr0pw-christian-schmidt.shinyapps.io/MA-Where-to-Live-Project/">Here</a> to see the App for yourself!</h4>
+</div>
 
