@@ -12,10 +12,10 @@
     The <strong>"MA Where to Live Project"</strong> originated from a table discovered on 
     <a href="https://www.bostonmagazine.com/property/boston-single-family-home-prices-by-town-in-2023/"><strong>BostonMagazine.com</strong></a>
     where it depicted the average single family home prices across the Greater Boston Area. 
-    I thought back to when I bought a house and wished there was some sort of database that not only shows prices, but could also show important stats like education and crime rates too.
-    There are services out there that score nationwide neighborhoods and towns (i.e. <a href=https://www.niche.com/"><strong>Niche</strong></a>), but I wanted to focus more locally on MA.
+    I thought back to when I bought a house and wished there was some sort of database that not only showed prices, but could also show important stats regarding education and crime rates too.
+    There are paid services out there that score nationwide neighborhoods and towns (i.e. <a href=https://www.niche.com/"><strong>Niche</strong></a>), but I wanted to focus more locally on MA.
   </p>
   <p>
-    Massachusetts
+    Massachusetts is 
   </p>
 </div> 
