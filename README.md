@@ -17,10 +17,10 @@
   </p>
   <h3>How did I collect the Data?</h3>
   <p>
-    I had two main sources of data.
+    I had two main sources of data:
     <ul>
       <li><a href="https://www.bostonmagazine.com/property/boston-single-family-home-prices-by-town-in-2023/"><strong>BostonMagazine.com</strong></a></li>
-      <li><a href="https://data.mass.gov/"><strong><Data.Mass.gov</strong></a></li>
+      <li><a href="https://data.mass.gov/"><strong>Data.Mass.gov</strong></a></li>
     </ul>
   </p>
 </div> 
