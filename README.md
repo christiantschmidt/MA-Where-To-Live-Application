@@ -1,7 +1,7 @@
 <h1 align="center"> MA-Where-To-Live-Application </h1>
 <div>
   <a href="https://github.com/christiantschmidt">
-    <img src="https://github.com/christiantschmidt/MA-Where-To-Live-Application/blob/main/Screenshot%202024-05-08%20184044.png" alt="Dashboard Screenshot" width = "900" height = "480">
+    <img src="https://github.com/christiantschmidt/MA-Where-To-Live-Application/blob/main/Screenshot%202024-05-08%20184044.png" alt="Dashboard Screenshot" width = "900" height = "540">
   </a>
 </div>
 <br />   
