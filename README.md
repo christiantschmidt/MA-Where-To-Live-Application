@@ -9,7 +9,7 @@
 <div>
   <h3>About The Project</h3>
   <p>
-    The "<strong>MA Where to Live Project</strong>" originated from a table discovered on 
+    The "<a href="https://ynr0pw-christian-schmidt.shinyapps.io/MA-Where-to-Live-Project/"><strong>MA Where to Live Project</strong></a>" originated from a table discovered on 
     <a href="https://www.bostonmagazine.com/property/boston-single-family-home-prices-by-town-in-2023/"><strong>BostonMagazine.com</strong></a>
     which depicted the average single-family home prices across the Greater Boston Area. 
     I thought back to when I bought a house and wished there was some sort of database that not only showed prices but could also display important stats regarding education and crime rates too.
