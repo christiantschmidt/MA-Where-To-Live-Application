@@ -141,8 +141,10 @@ compare_charts <- function(first_city, second_city, y_axis, data, dtick) {
 
 # UI ---------------------------------------------------------------------------
 ui <- dashboardPage(
+  dark = NULL,
+  help = NULL,
   ## Header --------------------------------------------------------------------
-  header = dashboardHeader(disable = TRUE,
+  header = dashboardHeader(disable = FALSE,
                            title = '| Table of Contents |'),
   ## Sidebar -------------------------------------------------------------------
   sidebar = dashboardSidebar(
@@ -155,7 +157,9 @@ ui <- dashboardPage(
       menuItem(text = 'Compare', tabName = 'compare',
                icon = icon('equals', lib = 'font-awesome')),
       menuItem(text = 'Rankings', tabName = 'rankings',
-               icon = icon('star', lib = 'font-awesome'))),
+               icon = icon('star', lib = 'font-awesome')),
+      menuItem(text = 'Raw Data', tabName = 'rawdata',
+               icon = icon('database', lib = 'font-awesome'))),
     style = "background-color: #add8e6;"), # Light blue sidebar background),
   ## Body ----------------------------------------------------------------------
   body = dashboardBody(
@@ -183,23 +187,25 @@ ui <- dashboardPage(
                                                `virtual-scroll` = TRUE)))),
               fluidRow(
                 box(title = 'Single Family Homes',
-                    width = 4,
+                    width = 12,
                     pickerInput(inputId = 'y_axis_sfhp',
                                 label = 'Y-axis',
                                 choices = y_axis_sfhp),
                     htmlOutput('sfhp_text'),
                     br(),
-                    plotlyOutput("sfhp_plot")),
+                    plotlyOutput("sfhp_plot"))),
+              fluidRow(
                 box(title = 'Education',
-                    width = 4,
+                    width = 12,
                     pickerInput(inputId = 'y_axis_education',
                                 label = 'Y-axis',
                                 choices = y_axis_education),                    
                     htmlOutput('education_text'),
                     br(),
-                    plotlyOutput("education_plot")),
+                    plotlyOutput("education_plot"))),
+              fluidRow(
                 box(title = 'Crime',
-                    width = 4,
+                    width = 12,
                     pickerInput(inputId = 'y_axis_crime',
                                 label = 'Y-axis',
                                 choices = y_axis_crime),                    
@@ -211,7 +217,13 @@ ui <- dashboardPage(
                 box(title = 'Rankings',
                     width = 12,
                     htmlOutput('rankings_text'),
-                    DTOutput('rankings_table'))))
+                    DTOutput('rankings_table')))),
+      tabItem(tabName = 'rawdata',
+              fluidRow(
+                box(title = 'SFHP',
+                    width = 12,
+                    DTOutput('raw_sfhp_table'))
+              ))
     )),
   footer = dashboardFooter(
     right = paste0('Time: ',Sys.time(), ' | By: Christian Schmidt | c.schmidt131@gmail.com')))
@@ -292,17 +304,45 @@ server <- function(input, output, session) {
   output$rankings_text <- renderText({
   "* A rankings means the City is in the top 20% in the Greater Boston Area.<br>
    ** F rankings means the City is in the bottom 20% in the Greater Boston Area. <br>
-   *** These rankings are determined in comparison to each other, this is not based on statewide averages or nationwide averages.<br>"
-  })
+   *** These rankings are determined in comparison to each other, 
+   this is not based on statewide averages or nationwide averages.
+   <br>
+   <br>"})
   
   output$rankings_table <- renderDT({
-    # Define color tile formatting for all columns except "City"
-    color_formats <- setNames(rep(list(color_tile('#57dc8f', '#dc6464')), ncol(Combined_Rankings) - 1), 
-                              names(Combined_Rankings)[-which(names(Combined_Rankings) == "City")])
+    colors <- c('#57dc8f','#7ed321','#f8e71c','#f5a623','#dc6464')
+    cuts <- c("A","B","C","D","F")
     
-    # Apply color tile formatting to the data
-    formattable(Combined_Rankings, color_formats) %>%
-      as.datatable()
+    datatable(
+      Combined_Rankings,
+      options = list(
+        scrollY = "400px",
+        scrollCollapse = TRUE,
+        pageLength = 15,
+        fixedColumns = list(leftColumns = 1)
+      ),
+      rownames = FALSE,
+      extensions = 'Buttons',
+      filter = 'top',
+      class = 'cell-border stripe',
+      callback = JS("table.column(1).nodes().to$().css({fontWeight: 'bold'})")
+    ) %>%
+      formatStyle(
+        names(Combined_Rankings)[-1],
+        backgroundColor = styleEqual(cuts,colors)
+      )
+  })
+  
+  output$raw_sfhp_table <- renderDT({
+    datatable(
+      SFHP,
+      options = list(
+        scrollY = "400px",
+        scrollCollapse = TRUE,
+        pageLength = 15,
+        fixedColumns = list(leftColumns = 1)
+      )
+    )
   })
   
 }
