@@ -226,7 +226,8 @@ ui <- dashboardPage(
               ))
     )),
   footer = dashboardFooter(
-    right = paste0('Time: ',Sys.time(), ' | By: Christian Schmidt | c.schmidt131@gmail.com')))
+    right = paste0('Time: ',Sys.time(), ' | By: Christian Schmidt | c.schmidt131@gmail.com'))
+  )
 
 # Server -----------------------------------------------------------------------
 server <- function(input, output, session) {

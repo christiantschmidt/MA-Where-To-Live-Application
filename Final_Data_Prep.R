@@ -16,7 +16,7 @@ City_Join_df <- read.csv('SFHP_GB_2023_Clean.csv',check.names = FALSE) %>%
 # Now join the dataframes
 # I decided to no longer include Attendance as the data no longer has meaning for me
 District_Info <- read.csv('Data/search.xls.csv',check.names = FALSE) %>%
-  select(`District Name` = `ï»¿Org Name`, Town)
+  rename(`District Name` = `ï»¿Org Name`)
 
 # Attendance_df <- read.csv('Attendance_df.csv',check.names = FALSE) %>%
 #   left_join(District_Info %>% rename(Town = `District Name`, City = Town), by = 'Town') %>%

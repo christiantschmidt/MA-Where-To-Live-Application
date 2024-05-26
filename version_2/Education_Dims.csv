@@ -1,0 +1,521 @@
+"","District Code","District Name","District Type","Grade","geocode_address","School_Longitude","School_Latitude"
+"1",4450000,"Abby Kelley Foster Charter Public (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","10 New Bond Street, Worcester, MA, 01606",-71.8031163,42.3060491
+"2",10000,"Abington","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1071 Washington St., Abington, MA, 02351",-70.9460232,42.1201244
+"3",4120000,"Academy Of the Pacific Rim Charter Public (District)","Charter District","05,06,07,08,09,10,11,12","1 Westinghouse Plaza Bldg B, Hyde Park, MA, 02136",-71.1324151,42.2458873
+"4",20000,"Acton (non-op)","Public School District",NA,"16 Charter Road, Acton, MA, 01720",-71.4578707,42.4767386
+"5",6000000,"Acton-Boxborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","15 Charter Rd, Acton, MA, 01720",-71.4552502,42.4777198
+"6",30000,"Acushnet","Public School District","PK,K,01,02,03,04,05,06,07,08","708 Middle Road, Suite 1, Acushnet, MA, 02743",-70.9050694,41.7233556
+"7",40000,"Adams (non-op)","Public School District",NA,"191 Church Street, Cheshire, MA, 01225",-73.1582046,42.5637553
+"8",4300000,"Advanced Math and Science Academy Charter (District)","Charter District","06,07,08,09,10,11,12","201 Forest Street, Marlborough, MA, 01752",-71.5778176,42.3336351
+"9",50000,"Agawam","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1305 Springfield St, Suite 1, Feeding Hills, MA, 01030",-72.6739317,42.0640158
+"10",60000,"Alford (non-op)","Public School District",NA,"PO Box 339, Sheffield, MA, 01257",-73.3944466,42.0937726
+"11",4090000,"Alma del Mar Charter School (District)","Charter District","K,01,02,03,04,05,06,07,08","515 Belleville Ave, New Bedford, MA, 02746",-70.9230882,41.6655071
+"12",70000,"Amesbury","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","5 Highland Street, Amesbury, MA, 01913",-70.94233,42.8509277
+"13",80000,"Amherst","Public School District","PK,K,01,02,03,04,05,06","170 Chestnut Street, Amherst, MA, 01002",-72.510452,42.3844908
+"14",6050000,"Amherst-Pelham","Public School District","07,08,09,10,11,12","170 Chestnut Street, Amherst, MA, 01002",-72.510452,42.3844908
+"15",90000,"Andover","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","30 Whittier Court, Andover, MA, 01810",-71.1356893,42.6549387
+"16",1040000,"Aquinnah (non-op)","Public School District",NA,"4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"17",35090000,"Argosy Collegiate Charter School (District)","Charter District","06,07,08,09,10,11,12","263 Hamlet Street, Fall River, MA, 02724",-71.1615715,41.6886922
+"18",100000,"Arlington","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","869 Massachusetts Avenue, Arlington, MA, 02476",-71.1612874,42.4184881
+"19",110000,"Ashburnham (non-op)","Public School District",NA,"11 Oakmont Drive, Ashburnham, MA, 01430",-71.9235287,42.6037371
+"20",6100000,"Ashburnham-Westminster","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","11 Oakmont Drive, Ashburnham, MA, 01430",-71.9235287,42.6037371
+"21",120000,"Ashby (non-op)","Public School District",NA,"23 Main Street, Townsend, MA, 01469",-71.660831,42.6516817
+"22",130000,"Ashfield (non-op)","Public School District",NA,"24 Ashfield Road, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"23",140000,"Ashland","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","87 West Union Street, Ashland, MA, 01721",-71.4752665,42.2517274
+"24",8010000,"Assabet Valley Regional Vocational Technical","Public School District","09,10,11,12","215 Fitchburg Street, Marlborough, MA, 01752",-71.5669185,42.3706385
+"25",150000,"Athol (non-op)","Public School District",NA,"P.O.Box 968, Athol, MA, 01331",-72.2271292,42.5938138
+"26",6150000,"Athol-Royalston","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1062 Pleasant Street, Athol, MA, 01331",-72.2126558,42.5733073
+"27",4910000,"Atlantis Charter (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","991 Jefferson St, Fall River, MA, 02721",-71.1437208,41.6702484
+"28",160000,"Attleboro","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1 Blue Pride Way, Attleboro, MA, 02703",-71.3038593,41.9390454
+"29",170000,"Auburn","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","5 West Street, Auburn, MA, 01501",-71.8681641,42.1836404
+"30",180000,"Avon","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1 Patrick Clark Drive, Avon, MA, 02322",-71.0455828,42.1158867
+"31",190000,"Ayer (non-op)","Public School District",NA,"141 Washington Street, Ayer, MA, 01432",-71.5761971,42.5670352
+"32",6160000,"Ayer Shirley School District","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","115 Washington Street, Ayer, MA, 01432",-71.578822,42.5659622
+"33",200000,"Barnstable","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","P O Box 955, Hyannis, MA, 02601",-70.2881124,41.6524911
+"34",210000,"Barre (non-op)","Public School District",NA,"872 South Street, Barre, MA, 01005",-72.1135912,42.3984438
+"35",35020000,"Baystate Academy Charter Public School (District)","Charter District","06,07,08,09,10,11,12","2001 Roosevelt Avenue, Springfield, MA, 01104",-72.5454398,42.1349863
+"36",220000,"Becket (non-op)","Public School District",NA,"PO Box 299, Dalton, MA, 01227",-73.17,42.47
+"37",230000,"Bedford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","97 McMahon Road, Bedford, MA, 01730",-71.2860717,42.4883613
+"38",240000,"Belchertown","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","PO Box 841, Belchertown, MA, 01007",-72.4008884,42.2770346
+"39",250000,"Bellingham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","4 Mechanic Street, Bellingham, MA, 02019",-71.4741812,42.0872215
+"40",260000,"Belmont","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","644 Pleasant Street, Belmont, MA, 02478",-71.1771117,42.3969809
+"41",4200000,"Benjamin Banneker Charter Public (District)","Charter District","PK,K,01,02,03,04,05,06","21 Notre Dame Avenue, Cambridge, MA, 02140",-71.1315943,42.3921284
+"42",4470000,"Benjamin Franklin Classical Charter Public (District)","Charter District","K,01,02,03,04,05,06,07,08","500 Financial Park, Franklin, MA, 02038",-71.420666,42.058578
+"43",270000,"Berkley","Public School District","PK,K,01,02,03,04,05,06,07,08","21 North Main Street, Berkley, MA, 02779",-71.0871153,41.8476289
+"44",4140000,"Berkshire Arts and Technology Charter Public (District)","Charter District","06,07,08,09,10,11,12","1 Commercial Pl, PO Box 267, Adams, MA, 01220",-73.1174344,42.6242251
+"45",6180000,"Berkshire Hills","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","50 Main Street, PO Box 617, Stockbridge, MA, 01262",-73.3266559,42.2974781
+"46",280000,"Berlin (non-op)","Public School District",NA,"215 Main Street, Boylston, MA, 01505",-71.7554317,42.328657
+"47",6200000,"Berlin-Boylston","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","215 Main Street, Boylston, MA, 01505",-71.7554317,42.328657
+"48",290000,"Bernardston (non-op)","Public School District",NA,"97 F Sumner Turner Rd, Northfield, MA, 01360",-72.4850083,42.6834886
+"49",300000,"Beverly","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","70 Balch St., Beverly, MA, 01915",-70.8900133,42.5633005
+"50",310000,"Billerica","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","365 Boston Rd, Billerica, MA, 01821",-71.287109,42.5768259
+"51",320000,"Blackstone (non-op)","Public School District",NA,"175 Lincoln Street, Blackstone, MA, 01504",-71.5382507,42.0294437
+"52",8050000,"Blackstone Valley Regional Vocational Technical","Public School District","09,10,11,12","65 Pleasant Street, Upton, MA, 01568",-71.6162758,42.1632409
+"53",6220000,"Blackstone-Millville","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","175 Lincoln Street, Blackstone, MA, 01504",-71.5382507,42.0294437
+"54",330000,"Blandford (non-op)","Public School District",NA,"12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"55",8060000,"Blue Hills Regional Vocational Technical","Public School District","09,10,11,12","800 Randolph Street, Canton, MA, 02021",-71.103333,42.1833087
+"56",340000,"Bolton (non-op)","Public School District",NA,"50 Mechanic Street, Bolton, MA, 01740",-71.6079814,42.4314235
+"57",350000,"Boston","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","2300 Washington Street, Roxbury, MA, 02119",-71.083854,42.330153
+"58",4490000,"Boston Collegiate Charter (District)","Charter District","05,06,07,08,09,10,11,12","215 Sydney Street, Dorchester, MA, 02125",-71.0524521,42.3187052
+"59",4240000,"Boston Day and Evening Academy Charter (District)","Charter District","09,10,11,12","20 Kearsarge Ave, Roxbury, MA, 02119",-71.0817537,42.326902
+"60",4110000,"Boston Green Academy Horace Mann Charter School (District)","Charter District","06,07,08,09,10,11,12","20 Warren St., Brighton, MA, 02135",-71.1458681,42.3502009
+"61",4160000,"Boston Preparatory Charter Public (District)","Charter District","06,07,08,09,10,11,12","885 River Street, Hyde Park, MA, 02136",-71.1105496,42.2620781
+"62",4810000,"Boston Renaissance Charter Public (District)","Charter District","PK,K,01,02,03,04,05,06","1415 Hyde Park Ave, Hyde Park, MA, 02136",-71.1265557,42.2504928
+"63",360000,"Bourne","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","36 Sandwich Rd, Bourne, MA, 02532",-70.59622,41.7422918
+"64",370000,"Boxborough (non-op)","Public School District",NA,"493 Massachusetts Avenue, Boxborough, MA, 01719",-71.505885,42.4820837
+"65",380000,"Boxford","Public School District","PK,K,01,02,03,04,05,06","28 Middleton Road, Boxford, MA, 01921",-71.0019141,42.6601002
+"66",390000,"Boylston (non-op)","Public School District",NA,"215 Main Street, Boylston, MA, 01505",-71.7554317,42.328657
+"67",400000,"Braintree","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","348 Pond Street, Braintree, MA, 02184",-71.0236751,42.1963126
+"68",410000,"Brewster","Public School District","PK,K,01,02,03,04,05","78 Eldredge Pkwy, Orleans, MA, 02653",-69.9898744,41.781657
+"69",4170000,"Bridge Boston Charter School (District)","Charter District","PK,K,01,02,03,04,05,06,07,08","435 Warren St., Roxbury, MA, 02119",-71.0832954,42.3167192
+"70",420000,"Bridgewater (non-op)","Public School District",NA,"166 Mt. Prospect Street, Bridgewater, MA, 02324",-70.9841852,41.9886635
+"71",6250000,"Bridgewater-Raynham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","166 Mt. Prospect Street, Bridgewater, MA, 02324",-70.9841852,41.9886635
+"72",430000,"Brimfield","Public School District","PK,K,01,02,03,04,05,06","320A Brookfield Rd, Fiskdale, MA, 01518",-72.1268809,42.1600986
+"73",9100000,"Bristol County Agricultural","Public School District","09,10,11,12","135 Center Street, Dighton, MA, 02715",-71.1152565,41.8354936
+"74",8100000,"Bristol-Plymouth Regional Vocational Technical","Public School District","09,10,11,12","207 Hart Street, Taunton, MA, 02780",-71.0563729,41.8806269
+"75",440000,"Brockton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","43 Crescent Street, Brockton, MA, 02301",-71.0190463,42.0808988
+"76",4280000,"Brooke Charter School (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","190 Cummins Highway, Roslindale, MA, 02131",-71.1219206,42.2819735
+"77",450000,"Brookfield","Public School District","PK,K,01,02,03,04,05,06","320 Brookfield Rd, Fiskdale, MA, 01518",-72.125763,42.16108
+"78",460000,"Brookline","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","333 Washington Street, Brookline, MA, 02445",-71.167203,42.3108379
+"79",470000,"Buckland (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"80",480000,"Burlington","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","123 Cambridge Street, Burlington, MA, 01803",-71.1950028,42.5003911
+"81",490000,"Cambridge","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","135 Berkshire Street, Cambridge, MA, 02141",-71.0903067,42.3716559
+"82",500000,"Canton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","960 Washington Street, Canton, MA, 02021",-71.144341,42.1633662
+"83",4320000,"Cape Cod Lighthouse Charter (District)","Charter District","06,07,08","195 Route 137, East Harwich, MA, 02645",-70.0243012,41.7115204
+"84",8150000,"Cape Cod Regional Vocational Technical","Public School District","09,10,11,12","351 Pleasant Lake Avenue, Harwich, MA, 02645",-70.0754669,41.7107571
+"85",510000,"Carlisle","Public School District","PK,K,01,02,03,04,05,06,07,08","83 School Street, Carlisle, MA, 01741",-71.3490159,42.5264739
+"86",520000,"Carver","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","3 Carver Square Blvd., Carver, MA, 02330",-70.7657729,41.8873942
+"87",6350000,"Central Berkshire","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","PO Box 299, Rt 8, Dalton, MA, 01227",-73.1571423,42.4741316
+"88",530000,"Charlemont (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"89",540000,"Charlton (non-op)","Public School District",NA,"68 Dudley Oxford Road, Dudley, MA, 01571",-71.9185916,42.0541252
+"90",550000,"Chatham (non-op)","Public School District",NA,"425 Crowell Rd, Chatham, MA, 02633",-69.9725088,41.6738013
+"91",560000,"Chelmsford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","230 North Road, Chelmsford, MA, 01824",-71.3654049,42.6173541
+"92",570000,"Chelsea","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","500 Broadway, Room 216, Chelsea, MA, 02150",-71.0540986,42.4087992
+"93",580000,"Cheshire (non-op)","Public School District",NA,"191 Church Street, Cheshire, MA, 01225",-73.1582046,42.5637553
+"94",590000,"Chester (non-op)","Public School District",NA,"12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"95",600000,"Chesterfield (non-op)","Public School District",NA,"19 Stage Rd, Westhampton, MA, 01027",-72.7717261,42.3028161
+"96",6320000,"Chesterfield-Goshen","Public School District","PK,K,01,02,03,04,05,06","PO Box 300, Chesterfield, MA, 01012",-72.8456399,42.3802332
+"97",610000,"Chicopee","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","134 Dulong Circle, Chicopee, MA, 01022",-72.5618252,42.1872402
+"98",620000,"Chilmark (non-op)","Public School District",NA,"4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"99",4180000,"Christa McAuliffe Charter School (District)","Charter District","06,07,08","139 Newbury St, Framingham, MA, 01701",-71.3949239,42.3081418
+"100",4370000,"City on a Hill Charter Public School (District)","Charter District","09,10,11,12","58 Circuit Street, Roxbury, MA, 02119",-71.0880322,42.3238404
+"101",630000,"Clarksburg","Public School District","PK,K,01,02,03,04,05,06,07,08","777 West Crossroad, Clarksburg, MA, 01247",-73.1038103,42.7184819
+"102",640000,"Clinton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","150 School Street, Clinton, MA, 01510",-71.686564,42.417568
+"103",4380000,"Codman Academy Charter Public (District)","Charter District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","637 Washington Street, Dorchester, MA, 02124",-71.0719691,42.289369
+"104",650000,"Cohasset","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","143 Pond Street, Cohasset, MA, 02025",-70.8096748,42.2324817
+"105",35030000,"Collegiate Charter School of Lowell (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","1857 Middlesex Street, Lowell, MA, 01851",-71.3586831,42.6367599
+"106",660000,"Colrain (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"107",4360000,"Community Charter School of Cambridge (District)","Charter District","06,07,08,09,10,11,12","245 Bent Street, Cambridge, MA, 02141",-71.0851909,42.3677079
+"108",4400000,"Community Day Charter Public School (District)","Charter District","PK,K,01,02,03,04,05,06,07,08","73 Prospect Street, Lawrence, MA, 01841",-71.1492964,42.7111531
+"109",670000,"Concord","Public School District","PK,K,01,02,03,04,05,06,07,08","120 Meriam Rd, Concord, MA, 01742",-71.3270978,42.4649333
+"110",6400000,"Concord-Carlisle","Public School District","09,10,11,12","120 Meriam Rd, Concord, MA, 01742",-71.3270978,42.4649333
+"111",4390000,"Conservatory Lab Charter (District)","Charter District","PK,K,01,02,03,04,05,06,07,08","395 Columbia Rd, Dorchester, MA, 02125",-71.0693809,42.3112247
+"112",680000,"Conway","Public School District","PK,K,01,02,03,04,05,06","113 North Main Street, Office C101, South Deerfield, MA, 01373",-72.6056788,42.4834655
+"113",690000,"Cummington (non-op)","Public School District",NA,"254 Hinsdale Road, Box 299, Dalton, MA, 01227",-73.1401726,42.4676258
+"114",700000,"Dalton (non-op)","Public School District",NA,"PO Box 299, Dalton, MA, 01227",-73.17,42.47
+"115",710000,"Danvers","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","64 Cabot Road, Danvers, MA, 01923",-70.9318313,42.5834832
+"116",720000,"Dartmouth","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","8 Bush Street, Dartmouth, MA, 02748",-70.9476723,41.5928343
+"117",730000,"Dedham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","100 Whiting Avenue, Dedham, MA, 02026",-71.1621057,42.2457524
+"118",740000,"Deerfield","Public School District","PK,K,01,02,03,04,05,06","113 North Main Street, Office C101, South Deerfield, MA, 01373",-72.6056788,42.4834655
+"119",750000,"Dennis (non-op)","Public School District",NA,"296 Station Avenue, South Yarmouth, MA, 02664",-70.199229,41.679416
+"120",6450000,"Dennis-Yarmouth","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","296 Station Avenue, South Yarmouth, MA, 02664",-70.199229,41.679416
+"121",3520000,"Devens (non-op)","Public School District",NA,"270 Barnum Rd, Devens, MA, 01432",-71.6086925,42.5407382
+"122",760000,"Dighton (non-op)","Public School District",NA,"2700 Regional Road, North Dighton, MA, 02764",-71.1969072,41.852654
+"123",6500000,"Dighton-Rehoboth","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","2700 Regional Road, North Dighton, MA, 02764",-71.1969072,41.852654
+"124",770000,"Douglas","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","21 Davis Street, Douglas, MA, 01516",-71.7052413,42.0708243
+"125",780000,"Dover","Public School District","PK,K,01,02,03,04,05","157 Farm Street, Dover, MA, 02030",-71.324257,42.219256
+"126",6550000,"Dover-Sherborn","Public School District","06,07,08,09,10,11,12","157 Farm Street, Dover, MA, 02030",-71.324257,42.219256
+"127",790000,"Dracut","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","2063 Lakeview Avenue, Dracut, MA, 01826",-71.3550218,42.6828916
+"128",800000,"Dudley (non-op)","Public School District",NA,"68 Dudley Oxford Road, Dudley, MA, 01571",-71.9185916,42.0541252
+"129",4070000,"Dudley Street Neighborhood Charter School (District)","Charter District","PK,K,01,02,03,04,05","6 Shirley Street, Boston, MA, 02119",-71.0728512,42.3235158
+"130",6580000,"Dudley-Charlton Reg","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","68 Dudley Oxford Road, Dudley, MA, 01571",-71.9185916,42.0541252
+"131",810000,"Dunstable (non-op)","Public School District",NA,"344 Main Street, Groton, MA, 01450",-71.5798313,42.6177813
+"132",820000,"Duxbury","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","93 Chandler Street, Duxbury, MA, 02332",-70.7370127,42.0361283
+"133",830000,"East Bridgewater","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","143 Plymouth Street, East Bridgewater, MA, 02333",-70.9566933,42.0275243
+"134",840000,"East Brookfield (non-op)","Public School District",NA,"306 Main Street, Spencer, MA, 01562",-71.9782799,42.2506102
+"135",870000,"East Longmeadow","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","180 Maple Street, East Longmeadow, MA, 01028",-72.5253066,42.0586224
+"136",850000,"Eastham","Public School District","PK,K,01,02,03,04,05","78 Eldredge Pkwy, Orleans, MA, 02653",-69.9898744,41.781657
+"137",860000,"Easthampton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","50 Payson Avenue, Second Floor, Easthampton, MA, 01027",-72.6695286,42.2654165
+"138",880000,"Easton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","48 Spooner Street, North Easton, MA, 02356",-71.1070134,42.0586067
+"139",890000,"Edgartown","Public School District","PK,K,01,02,03,04,05,06,07,08","4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"140",4520000,"Edward M. Kennedy Academy for Health Careers: A Horace Mann Charter Public School (District)","Charter District","09,10,11,12","10 Fenwood Road, Boston, MA, 02115",-71.1064292,42.3339023
+"141",900000,"Egremont (non-op)","Public School District",NA,"PO Box 339, Sheffield, MA, 01257",-73.3944466,42.0937726
+"142",910000,"Erving","Public School District","PK,K,01,02,03,04,05,06","PO Box 7, Erving, MA, 01344",-72.4435674,42.6131079
+"143",920000,"Essex (non-op)","Public School District",NA,"36 Lincoln Street, P. O. Box 1407, Manchester-by-the-Sea, MA, 01944",-70.7675967,42.577834
+"144",8170000,"Essex North Shore Agricultural and Technical School District","Public School District","09,10,11,12","565 Maple Street, P.O. Box 346, Hathorne, MA, 01937",-70.9761123,42.5908924
+"145",930000,"Everett","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","121 Vine Street, Everett, MA, 02149",-71.0470673,42.403549
+"146",4100000,"Excel Academy Charter (District)","Charter District","05,06,07,08,09,10,11,12","58 Moore Street, East Boston, MA, 02128",-71.0187269,42.3827869
+"147",940000,"Fairhaven","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","128 Washington Street, Fairhaven, MA, 02719",-70.8938983,41.6395989
+"148",950000,"Fall River","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","417 Rock Street, Fall River, MA, 02720",-71.1513997,41.7071816
+"149",960000,"Falmouth","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","340 Teaticket Hwy, East Falmouth, MA, 02536",-70.5938022,41.5696035
+"150",6620000,"Farmington River Reg","Public School District","PK,K,01,02,03,04,05,06","555 N Main Street, Otis, MA, 01253",-73.096278,42.205114
+"151",970000,"Fitchburg","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","376 South Street, Fitchburg, MA, 01420",-71.7967127,42.5713808
+"152",980000,"Florida","Public School District","PK,K,01,02,03,04,05,06,07,08","56 North County Rd, Florida, MA, 01247",-73.0376544,42.693068
+"153",4130000,"Four Rivers Charter Public (District)","Charter District","07,08,09,10,11,12","248 Colrain Road, Greenfield, MA, 01301",-72.6208345,42.596486
+"154",990000,"Foxborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","60 South Street, C/O Igo Administration Building, Foxborough, MA, 02035",-71.2514636,42.0613905
+"155",4460000,"Foxborough Regional Charter (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","131 Central Street, 35 Commercial Street, Foxborough, MA, 02035",-71.2446371,42.0571295
+"156",1000000,"Framingham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","19 Flagg Drive, Framingham, MA, 01702",-71.4139804,42.2920676
+"157",4780000,"Francis W. Parker Charter Essential (District)","Charter District","07,08,09,10,11,12","49 Antietam Street, Devens, MA, 01434",-71.6062699,42.5487352
+"158",1010000,"Franklin","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","355 East Central Street, Suite 3, Franklin, MA, 02038",-71.3806121,42.0806644
+"159",8180000,"Franklin County Regional Vocational Technical","Public School District","09,10,11,12","82 Industrial Blvd, Turners Falls, MA, 01376",-72.5290243,42.5949392
+"160",1020000,"Freetown (non-op)","Public School District",NA,"98 Howland Rd, Lakeville, MA, 02347",-70.989112,41.790175
+"161",6650000,"Freetown-Lakeville","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","98 Howland Rd, Lakeville, MA, 02347",-70.989112,41.790175
+"162",6700000,"Frontier","Public School District","07,08,09,10,11,12","113 North Main Street, Office C101, South Deerfield, MA, 01373",-72.6056788,42.4834655
+"163",1030000,"Gardner","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","160 Elm Street, Gardner, MA, 01440",-71.9826307,42.5750671
+"164",6720000,"Gateway","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"165",1050000,"Georgetown","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","51 North Street, Georgetown, MA, 01833",-70.9885731,42.7262736
+"166",1060000,"Gill (non-op)","Public School District",NA,"35 Crocker Avenue, Turners Falls, MA, 01376",-72.5563852,42.5999844
+"167",6740000,"Gill-Montague","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","35 Crocker Avenue, Turners Falls, MA, 01376",-72.5563852,42.5999844
+"168",4960000,"Global Learning Charter Public (District)","Charter District","05,06,07,08,09,10,11,12","101 Nye St, New Bedford, MA, 02746",-70.9291376,41.6600714
+"169",1070000,"Gloucester","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","2 Blackburn Drive, Gloucester, MA, 01930",-70.6544779,42.6276247
+"170",1080000,"Goshen (non-op)","Public School District",NA,"19 Stage Rd, Westhampton, MA, 01027",-72.7717261,42.3028161
+"171",1090000,"Gosnold","Public School District","02,03,04,05,06,07","263 Hill & Plain Road, East Falmouth, MA, 02536",NA,NA
+"172",1100000,"Grafton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","30 Providence Rd, Grafton, MA, 01519",-71.6941249,42.2092824
+"173",1110000,"Granby","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","387 East State Street, Granby, MA, 01033",-72.4933631,42.2634025
+"174",1120000,"Granville (non-op)","Public School District",NA,"86 Powder Mill Road, Southwick, MA, 01077",-72.7475796,42.0606233
+"175",1130000,"Great Barrington (non-op)","Public School District",NA,"207 Pleasant Street, PO Box 596, Housatonic, MA, 01236",-73.3662214,42.2542548
+"176",39010000,"Greater Commonwealth Virtual District","Public School District","K,01,02,03,04,05,06,07,08,09,10,11,12","238 Main St., 3rd Floor, Greenfield, MA, 01301",-72.6022294,42.5881079
+"177",8210000,"Greater Fall River Regional Vocational Technical","Public School District","09,10,11,12","251 Stonehaven Rd, Fall River, MA, 02723",-71.1246894,41.6993239
+"178",8230000,"Greater Lawrence Regional Vocational Technical","Public School District","09,10,11,12","57 River Rd, Andover, MA, 01810",-71.1960935,42.6926074
+"179",8280000,"Greater Lowell Regional Vocational Technical","Public School District","09,10,11,12","250 Pawtucket Blvd, Tyngsborough, MA, 01879",-71.3855756,42.6544951
+"180",8250000,"Greater New Bedford Regional Vocational Technical","Public School District","09,10,11,12","1121 Ashley Blvd, New Bedford, MA, 02745",-70.9384481,41.6911777
+"181",1140000,"Greenfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","195 Federal Street, Suite 100, Greenfield, MA, 01301",-72.5964647,42.5956809
+"182",1150000,"Groton (non-op)","Public School District",NA,"344 Main Street, Groton, MA, 01450",-71.5798313,42.6177813
+"183",6730000,"Groton-Dunstable","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","344 Main Street, Groton, MA, 01450",-71.5798313,42.6177813
+"184",1160000,"Groveland (non-op)","Public School District",NA,"22 Main Street, West Newbury, MA, 01985",-71.0133379,42.7781437
+"185",1170000,"Hadley","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","125 Russell Street, Hadley, MA, 01035",-72.5919995,42.3418706
+"186",1180000,"Halifax","Public School District","K,01,02,03,04,05,06","250 Pembroke Street, Kingston, MA, 02364",-70.7815667,42.0153353
+"187",1190000,"Hamilton (non-op)","Public School District",NA,"5 School Street, Wenham, MA, 01984",-70.8865354,42.6079873
+"188",6750000,"Hamilton-Wenham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","5 School Street, Wenham, MA, 01984",-70.8865354,42.6079873
+"189",1200000,"Hampden (non-op)","Public School District",NA,"621 Main Street, Wilbraham, MA, 01095",-72.444492,42.1109013
+"190",4990000,"Hampden Charter School of Science East (District)","Charter District","06,07,08,09,10,11,12","20 Johnson Road, Chicopee, MA, 01022",-72.5633435,42.1970253
+"191",35160000,"Hampden Charter School of Science West (District)","Charter District","06,07,08,09,10,11,12","511 Main St., West Springfield, MA, 01089",-72.608773,42.102907
+"192",6800000,"Hampden-Wilbraham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","621 Main Street, Wilbraham, MA, 01095",-72.444492,42.1109013
+"193",6830000,"Hampshire","Public School District","07,08,09,10,11,12","19 Stage Rd, Westhampton, MA, 01027",-72.7717261,42.3028161
+"194",1210000,"Hancock","Public School District","PK,K,01,02,03,04,05,06","3080 HANCOCK ROAD, HANCOCK, MA, 01237",-73.310852,42.5481144
+"195",1220000,"Hanover","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","188 Broadway Street, Hanover, MA, 02339",-70.8137991,42.1114622
+"196",1230000,"Hanson (non-op)","Public School District",NA,"610 Franklin Street, Whitman, MA, 02382",-70.9042492,42.0731147
+"197",1240000,"Hardwick (non-op)","Public School District",NA,"PO Box 576, Gilbertville, MA, 01031",-72.2078588,42.3125557
+"198",1250000,"Harvard","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","27A Massachusetts Avenue, Harvard, MA, 01451",-71.5811413,42.4969383
+"199",1260000,"Harwich (non-op)","Public School District",NA,"425 Crowell Rd, Chatham, MA, 02633",-69.9725088,41.6738013
+"200",1270000,"Hatfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","34 School Street, Hatfield, MA, 01038",-72.6006534,42.3755991
+"201",1280000,"Haverhill","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","4 Summer Street, Haverhill, MA, 01830",-71.0767534,42.7781256
+"202",6850000,"Hawlemont","Public School District","PK,K,01,02,03,04,05,06","24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"203",1290000,"Hawley (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"204",1300000,"Heath (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"205",4190000,"Helen Y. Davis Leadership Academy Charter Public (District)","Charter District","06,07,08","23 Leonard Street, Boston, MA, 02122",-71.0586446,42.3013263
+"206",4550000,"Hill View Montessori Charter Public (District)","Charter District","K,01,02,03,04,05,06,07,08","75 Foundation Ave, Ward Hill Business Park, Haverhill, MA, 01835",-71.1197646,42.7662102
+"207",4500000,"Hilltown Cooperative Charter Public (District)","Charter District","K,01,02,03,04,05,06,07,08","1 Industrial Parkway, Easthampton, MA, 01039",-72.6601434,42.2867208
+"208",1310000,"Hingham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","220 Central Street, Hingham, MA, 02043",-70.8858205,42.2312086
+"209",1320000,"Hinsdale (non-op)","Public School District",NA,"PO Box 299, Dalton, MA, 01227",-73.17,42.47
+"210",1330000,"Holbrook","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","245 So. Franklin Street, Holbrook, MA, 02343",-71.006671,42.1478427
+"211",1340000,"Holden (non-op)","Public School District",NA,"Jefferson School, 1745 Main Street, Jefferson, MA, 01522",-71.8869632,42.3622
+"212",1350000,"Holland","Public School District","PK,K,01,02,03,04,05,06","320 Brookfield Rd, Fiskdale, MA, 01518",-72.125763,42.16108
+"213",1360000,"Holliston","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","370 Hollis Street, Holliston, MA, 01746",-71.4436772,42.2056226
+"214",1370000,"Holyoke","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","57 Suffolk Street, Holyoke, MA, 01040",-72.6090481,42.2064711
+"215",4530000,"Holyoke Community Charter (District)","Charter District","K,01,02,03,04,05,06,07,08","2200 Northampton Street, Holyoke, MA, 01040",-72.6286068,42.1858718
+"216",6030000,"Hoosac Valley Regional","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","49 Park Street, Adams, MA, 01220",-73.1200049,42.6222815
+"217",1380000,"Hopedale","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","25 Adin Street, Hopedale, MA, 01747",-71.5375524,42.1288341
+"218",1390000,"Hopkinton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","89 Hayden Rowe Street, Hopkinton, MA, 01748",-71.5162122,42.2188979
+"219",1400000,"Hubbardston (non-op)","Public School District",NA,"8 Elm Street, Hubbardston, MA, 01452",-72.0076393,42.4745153
+"220",1410000,"Hudson","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","155 Apsley Street, Hudson, MA, 01749",-71.5687325,42.3956152
+"221",1420000,"Hull","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","18 Harborview Road, Hull, MA, 02045",-70.9089,42.306919
+"222",1430000,"Huntington (non-op)","Public School District",NA,"12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"223",4350000,"Innovation Academy Charter (District)","Charter District","05,06,07,08,09,10,11,12","72 Tyng Road, Tyngsborough, MA, 01879",-71.4081997,42.65887
+"224",3700000,"Institutional Schools","Public School District","01,02,03,04,05,06,07,08,09,10,11,12","75 Pleasant Street, Room 4-429, Malden, MA, 02148",-71.0690513,42.4273675
+"225",1440000,"Ipswich","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1 Lord Square, Ipswich, MA, 01938",-70.8446121,42.6841026
+"226",4630000,"KIPP Academy Boston Charter School (District)","Charter District","K,01,02,03,04,05,06,07,08","37 Babson Street, KIPP Academy Boston, Mattapan, MA, 02126",-71.0927911,42.274479
+"227",4290000,"KIPP Academy Lynn Charter (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","90 High Rock Street, Lynn, MA, 01902",-70.9494858,42.4678533
+"228",6900000,"King Philip","Public School District","07,08,09,10,11,12","18 King Street, Norfolk, MA, 02056",-71.3277623,42.0974283
+"229",1450000,"Kingston","Public School District","PK,K,01,02,03,04,05,06","250 Pembroke Street, Kingston, MA, 02364",-70.7815667,42.0153353
+"230",1460000,"Lakeville (non-op)","Public School District",NA,"98 Howland Rd, Lakeville, MA, 02347",-70.989112,41.790175
+"231",1470000,"Lancaster (non-op)","Public School District",NA,"50 Mechanic Street, Bolton, MA, 01740",-71.6079814,42.4314235
+"232",1480000,"Lanesborough (non-op)","Public School District",NA,"1781 Cold Spring, Williamstown, MA, 01267",-73.2414153,42.6714391
+"233",1490000,"Lawrence","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","237 Essex Street, Lawrence, MA, 01840",-71.1599371,42.7079735
+"234",4540000,"Lawrence Family Development Charter (District)","Charter District","PK,K,01,02,03,04,05,06,07,08","355 Haverhill Street, Lawrence, MA, 01840",-71.1695219,42.7093633
+"235",4860000,"Learning First Charter Public School (District)","Charter District","K,01,02,03,04,05,06,07,08","50 Richland St, Worcester, MA, 01610",-71.7976988,42.2510723
+"236",1500000,"Lee","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","300A Greylock St, Lee, MA, 01238",-73.239279,42.306676
+"237",1510000,"Leicester","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","3 Washburn Square, 3rd Floor, Leicester, MA, 01524",-71.9060661,42.2472577
+"238",1520000,"Lenox","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","6 Walker Street, Lenox, MA, 01240",-73.2847844,42.3563978
+"239",1530000,"Leominster","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","24 Church Street, Leominster, MA, 01453",-71.760719,42.5273976
+"240",1540000,"Leverett","Public School District","PK,K,01,02,03,04,05,06","PO Box 7, Erving, MA, 01344",-72.4435674,42.6131079
+"241",1550000,"Lexington","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","146 Maple Street, Lexington, MA, 02420",-71.1995412,42.4442967
+"242",1560000,"Leyden (non-op)","Public School District",NA,"97 F Sumner Turner Rd, Northfield, MA, 01360",-72.4850083,42.6834886
+"243",35140000,"Libertas Academy Charter School (District)","Charter District","06,07,08,09,10,11","146 Chestnut Street, Springfield, MA, 01103",-72.5895256,42.1055311
+"244",1570000,"Lincoln","Public School District","PK,K,01,02,03,04,05,06,07,08","1 Ballfield Road, Lincoln, MA, 01773",-71.3130465,42.4253484
+"245",6950000,"Lincoln-Sudbury","Public School District","09,10,11,12","390 Lincoln Rd, Sudbury, MA, 01776",-71.4003375,42.3976372
+"246",1580000,"Littleton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","PO Box 1486, Littleton, MA, 01460",-71.4893013,42.5295344
+"247",1590000,"Longmeadow","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","535 Bliss Road, Longmeadow, MA, 01106",-72.5609048,42.0572232
+"248",1600000,"Lowell","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","155 Merrimack Street, Lowell, MA, 01852",-71.3104419,42.645816
+"249",4560000,"Lowell Community Charter Public (District)","Charter District","PK,K,01,02,03,04,05,06,07,08","206 Jackson Street, Lowell, MA, 01852",-71.3120465,42.6414175
+"250",4580000,"Lowell Middlesex Academy Charter (District)","Charter District","09,10,11,12","67 Middle St, Lowell, MA, 01852",-71.3097065,42.6452188
+"251",1610000,"Ludlow","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","205 Fuller Street, Ludlow, MA, 01056",-72.486587,42.1767492
+"252",1620000,"Lunenburg","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1025 Mass Avenue, Lunenburg, MA, 01462",-71.7217885,42.5972759
+"253",1630000,"Lynn","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","100 Bennett St, Lynn, MA, 01905",-70.963273,42.455742
+"254",1640000,"Lynnfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","525 Salem Street, Lynnfield, MA, 01940",-71.0156516,42.5129722
+"255",4680000,"Ma Academy for Math and Science","Public School District","11,12","85 Prescott Street, Worcester, MA, 01605",-71.7998762,42.276331
+"256",1650000,"Malden","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","110 Pleasant St, Malden, MA, 02148",-71.0703442,42.4268369
+"257",1660000,"Manchester (non-op)","Public School District",NA,"36 Lincoln Street, Manchester-by-the-Sea, MA, 01944",-70.7658066,42.5823541
+"258",6980000,"Manchester Essex Regional","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","PO BOX 1407, Manchester-by-the-Sea, MA, 01944",-70.7675967,42.577834
+"259",1670000,"Mansfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","2 Park Row, Mansfield, MA, 02048",-71.2162821,42.0234571
+"260",35170000,"Map Academy Charter School (District)","Charter District","09,10,11,12","11 Resnik Road, Plymouth, MA, 02360",-70.7112904,41.9485764
+"261",1680000,"Marblehead","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","9 Widger Road, Marblehead, MA, 01945",-70.8721005,42.4947687
+"262",4640000,"Marblehead Community Charter Public (District)","Charter District","04,05,06,07,08","17 Lime Street, Marblehead, MA, 01945",-70.8535119,42.5083242
+"263",1690000,"Marion","Public School District","PK,K,01,02,03,04,05,06","135 Marion Rd, Mattapoisett, MA, 02739",-70.7785469,41.673999
+"264",1700000,"Marlborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","25 Union Street, Marlborough, MA, 01752",-71.5488217,42.3573981
+"265",1710000,"Marshfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","76 South River Street, Marshfield, MA, 02050",-70.7149423,42.0964357
+"266",7000000,"Martha's Vineyard","Public School District","09,10,11,12","4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"267",4660000,"Martha's Vineyard Charter Public School (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","PO Box 1150, West Tisbury, MA, 02575",-70.6474739,41.4223551
+"268",4920000,"Martin Luther King, Jr. Charter School of Excellence (District)","Charter District","K,01,02,03,04,05","285 Dorset Street, Springfield, MA, 01108",-72.536096,42.0839553
+"269",7050000,"Masconomet","Public School District","07,08,09,10,11,12","20 Endicott Rd, Boxford, MA, 01921",-70.9747805,42.6272587
+"270",1720000,"Mashpee","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","150-A Old Barnstable Road, Mashpee, MA, 02649",-70.493862,41.6233391
+"271",4690000,"Match Charter Public School (District)","Charter District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1001 Commonwealth Avenue, Boston, MA, 02215",-71.1209503,42.3522109
+"272",1730000,"Mattapoisett","Public School District","PK,K,01,02,03,04,05,06","135 Marion Rd, Mattapoisett, MA, 02739",-70.7785469,41.673999
+"273",1740000,"Maynard","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","3-R Tiger Drive, Maynard, MA, 01754",-71.4569301,42.4215366
+"274",1750000,"Medfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","459 Main St, 3rd Fl, Medfield, MA, 02052",-71.3050213,42.1871624
+"275",1760000,"Medford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","489 Winthrop Street, Medford, MA, 02155",-71.1249843,42.4300372
+"276",1770000,"Medway","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","45 Holliston Street, Medway, MA, 02053",-71.4071154,42.145596
+"277",1780000,"Melrose","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","360 Lynn Fells Pkwy, Melrose, MA, 02176",-71.0680373,42.4644444
+"278",1790000,"Mendon (non-op)","Public School District",NA,"150 North Ave, POB 5, Mendon, MA, 01756",-71.5726503,42.1311539
+"279",7100000,"Mendon-Upton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","150 North Ave, Mendon, MA, 01756",-71.5726503,42.1311539
+"280",1800000,"Merrimac (non-op)","Public School District",NA,"22 Main Street, West Newbury, MA, 01985",-71.0133379,42.7781437
+"281",1810000,"Methuen","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","9 Branch Street, Methuen, MA, 01844",-71.2130882,42.7072657
+"282",1820000,"Middleborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","30 Forest Street, Middleborough, MA, 02346",-70.9171009,41.8963287
+"283",1830000,"Middlefield (non-op)","Public School District",NA,"12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"284",1840000,"Middleton","Public School District","PK,K,01,02,03,04,05,06","28 Middleton Road, Boxford, MA, 01921",-71.0019141,42.6601002
+"285",1850000,"Milford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","31 West Fountain Street, Milford, MA, 01757",-71.5337765,42.1477385
+"286",1860000,"Millbury","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","12 Martin Street, Millbury, MA, 01527",-71.7659862,42.1995999
+"287",1870000,"Millis","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","245 Plain Street, Central Office, Millis, MA, 02054",-71.3580462,42.1626502
+"288",1880000,"Millville (non-op)","Public School District",NA,"175 Lincoln Street, Blackstone, MA, 01504",-71.5382507,42.0294437
+"289",1890000,"Milton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","25 Gile Road, Milton, MA, 02186",-71.0867843,42.2510094
+"290",8300000,"Minuteman Regional Vocational Technical","Public School District","09,10,11,12","758 Marrett Rd, Lexington, MA, 02421",-71.2739462,42.4461993
+"291",7170000,"Mohawk Trail","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"292",7120000,"Monomoy Regional School District","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","425 Crowell Rd, Chatham, MA, 02633",-69.9725088,41.6738013
+"293",1900000,"Monroe (non-op)","Public School District",NA,"98 Church Street, North Adams, MA, 01247",-73.1084744,42.6977621
+"294",1910000,"Monson","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","P O Box 159, Monson, MA, 01057",-72.3074326,42.0806976
+"295",8320000,"Montachusett Regional Vocational Technical","Public School District","09,10,11,12","1050 Westminster Street, Fitchburg, MA, 01420",-71.8606194,42.5605923
+"296",1920000,"Montague (non-op)","Public School District",NA,"35 Crocker Avenue, Turners Falls, MA, 01376",-72.5563852,42.5999844
+"297",1930000,"Monterey (non-op)","Public School District",NA,"PO Box 339, Sheffield, MA, 01257",-73.3944466,42.0937726
+"298",1940000,"Montgomery (non-op)","Public School District",NA,"12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"299",7150000,"Mount Greylock","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1781 Cold Spring Rd, Williamstown, MA, 01267",-73.2414153,42.6714391
+"300",1950000,"Mount Washington (non-op)","Public School District",NA,"118 East Street, Mt Washington, MA, 01258",-73.4537001,42.0997251
+"301",4700000,"Mystic Valley Regional Charter (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","4 Laurel Street, Malden, MA, 02148",-71.044173,42.4349332
+"302",1960000,"Nahant","Public School District","PK,K,01,02,03,04,05","290 Castle Road, Nahant, MA, 01908",-70.9337818,42.4221398
+"303",1970000,"Nantucket","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","10 Surfside Road, Nantucket, MA, 02554",-70.0986582,41.273224
+"304",7200000,"Narragansett","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","462 Baldwinville Rd, Baldwinville, MA, 01436",-72.0740043,42.5878307
+"305",7250000,"Nashoba","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","50 Mechanic Street, Bolton, MA, 01740",-71.6079814,42.4314235
+"306",8520000,"Nashoba Valley Regional Vocational Technical","Public School District","09,10,11,12","100 Littleton Road, Westford, MA, 01886",-71.4095772,42.5705244
+"307",1980000,"Natick","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","13 East Central Street, Natick, MA, 01760",-71.3458343,42.2837069
+"308",6600000,"Nauset","Public School District","06,07,08,09,10,11,12","78 Eldredge Pkwy, Orleans, MA, 02653",-69.9898744,41.781657
+"309",1990000,"Needham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1330 Highland Avenue, Needham, MA, 02492",-71.2356441,42.2835349
+"310",4440000,"Neighborhood House Charter (District)","Charter District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","21 Queen Street, Dorchester, MA, 02122",-71.0533053,42.2930939
+"311",2000000,"New Ashford (non-op)","Public School District",NA,"3080 HANCOCK ROAD, HANCOCK, MA, 01237",-73.310852,42.5481144
+"312",2010000,"New Bedford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","455 County Street, C/O Paul Rodrigues Administration Bldg., New Bedford, MA, 02740",-70.9318286,41.634742
+"313",2020000,"New Braintree (non-op)","Public School District",NA,"15 Memorial Drive, New Braintree, MA, 01531",-72.1218973,42.3174811
+"314",35130000,"New Heights Charter School of Brockton (District)","Charter District","06,07,08,09,10,11,12","1690 Main Street, Brockton, MA, 02301",-71.0104919,42.0518997
+"315",2050000,"New Marlborough (non-op)","Public School District",NA,"PO Box 339, Sheffield, MA, 01257",-73.3944466,42.0937726
+"316",2060000,"New Salem (non-op)","Public School District",NA,"PO Box 7, Erving, MA, 01344",-72.4435674,42.6131079
+"317",7280000,"New Salem-Wendell","Public School District","PK,K,01,02,03,04,05,06","PO Box 7, Erving, MA, 01344",-72.4435674,42.6131079
+"318",2030000,"Newbury (non-op)","Public School District",NA,"112 Elm Street, Byfield, MA, 01922",-70.919775,42.748035
+"319",2040000,"Newburyport","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","70 Low Street, Newburyport, MA, 01950",-70.8872449,42.8087365
+"320",2070000,"Newton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","100 Walnut Street, Newtonville, MA, 02460",-71.2094053,42.3570593
+"321",2080000,"Norfolk","Public School District","PK,K,01,02,03,04,05,06","70 Boardman Street, Norfolk, MA, 02056",-71.3235189,42.1238848
+"322",9150000,"Norfolk County Agricultural","Public School District","09,10,11,12","400 Main Street, Walpole, MA, 02081",-71.2386453,42.1627182
+"323",2090000,"North Adams","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","10 Main Street, Second Floor, North Adams, MA, 01247",-73.1087148,42.700915
+"324",2110000,"North Andover","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","566 Main Street, North Andover, MA, 01845",-71.1182255,42.6919984
+"325",2120000,"North Attleborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","6 Morse Street, North Attleborough, MA, 02760",-71.3355353,41.981933
+"326",2150000,"North Brookfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","10 New School Drive, North Brookfield, MA, 01535",-72.0793609,42.2781086
+"327",7350000,"North Middlesex","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","66 Brookline Street, Towsend, MA, 01469",-71.7055179,42.6756659
+"328",2170000,"North Reading","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","189 Park Street, North Reading, MA, 01864",-71.0843792,42.5777526
+"329",2100000,"Northampton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","212 Main Street, Northampton, MA, 01060",-72.6322332,42.3170248
+"330",4060000,"Northampton-Smith Vocational Agricultural","Public School District","09,10,11,12","80 Locust Street, Northampton, MA, 01060",-72.6574562,42.3312164
+"331",7300000,"Northboro-Southboro","Public School District","09,10,11,12","53 Parkerville Road, Southborough, MA, 01772",-71.5398557,42.2952835
+"332",2130000,"Northborough","Public School District","K,01,02,03,04,05,06,07,08","53 Parkerville Road, Southborough, MA, 01772",-71.5398557,42.2952835
+"333",2140000,"Northbridge","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","87 Linwood Avenue, Whitinsville, MA, 01588",-71.6606584,42.1100921
+"334",8530000,"Northeast Metropolitan Regional Vocational Technical","Public School District","09,10,11,12","100 Hemlock Rd, Wakefield, MA, 01880",-71.0433275,42.4960258
+"335",8510000,"Northern Berkshire Regional Vocational Technical","Public School District","09,10,11,12","70 Hodges Cross Rd, North Adams, MA, 01247",-73.1008054,42.6641961
+"336",2160000,"Northfield (non-op)","Public School District",NA,"97 F Sumner Turner Rd, Northfield, MA, 01360",-72.4850083,42.6834886
+"337",2180000,"Norton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","64 West Main Street, Norton, MA, 02766",-71.1935639,41.9609702
+"338",2190000,"Norwell","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","322 Main Street, Norwell, MA, 02061",-70.8203708,42.1568621
+"339",2200000,"Norwood","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","275 Prospect Street, PO BOX 67, Norwood, MA, 02062",-71.2042619,42.1772198
+"340",2210000,"Oak Bluffs","Public School District","PK,K,01,02,03,04,05,06,07,08","4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"341",2220000,"Oakham (non-op)","Public School District",NA,"1 Deacon Allen Drive, PO Box 99, Oakham, MA, 01068",-72.0467809,42.3575686
+"342",8550000,"Old Colony Regional Vocational Technical","Public School District","09,10,11,12","476 North Avenue, Rochester, MA, 02770",-70.8714323,41.785855
+"343",7400000,"Old Rochester","Public School District","07,08,09,10,11,12","135 Marion Rd, Mattapoisett, MA, 02739",-70.7785469,41.673999
+"344",35150000,"Old Sturbridge Academy Charter Public School (District)","Charter District","K,01,02,03,04,05,06,07,08","2 Old Sturbridge Village Road, Sturbridge, MA, 01566",-72.1003644,42.1084488
+"345",2230000,"Orange","Public School District","PK,K,01,02,03,04,05,06","507 S. Main Street, P.O. Box 680, Orange, MA, 01364",-72.3023634,42.5745304
+"346",2240000,"Orleans","Public School District","K,01,02,03,04,05","78 Eldredge Pkwy, Orleans, MA, 02653",-69.9898744,41.781657
+"347",2250000,"Otis (non-op)","Public School District",NA,"555 N Main, POB 679, Otis, MA, 01253",-73.096278,42.205114
+"348",2260000,"Oxford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","4 Maple Road, Oxford, MA, 01540",-71.8657029,42.1201461
+"349",2270000,"Palmer","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","4107 Main Street, Palmer, MA, 01069",-72.3421146,42.1853907
+"350",8600000,"Pathfinder Regional Vocational Technical","Public School District","09,10,11,12","240 Sykes Street, Palmer, MA, 01069",-72.3522018,42.1863486
+"351",2280000,"Paxton (non-op)","Public School District",NA,"1745 Main Street, Jefferson, MA, 01522",-71.8869632,42.3622
+"352",2290000,"Peabody","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","27 Lowell Street, Peabody, MA, 01960",-70.9283176,42.5265183
+"353",2300000,"Pelham","Public School District","K,01,02,03,04,05,06","170 Chestnut Street, Business Office, Amherst, MA, 01002",-72.510452,42.3844908
+"354",2310000,"Pembroke","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","72 Pilgrim Road, Office of the Superintendent, Pembroke, MA, 02359",-70.78018,42.097813
+"355",7450000,"Pentucket","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","22 Main Street, West Newbury, MA, 01985",-71.0133379,42.7781437
+"356",2320000,"Pepperell (non-op)","Public School District",NA,"23 Main Street, Townsend, MA, 01469",-71.660831,42.6516817
+"357",2330000,"Peru (non-op)","Public School District",NA,"PO Box 299, Dalton, MA, 01227",-73.17,42.47
+"358",2340000,"Petersham","Public School District","K,01,02,03,04,05,06","P O Box 148, Petersham, MA, 01366",-72.2126905,42.4861078
+"359",2350000,"Phillipston (non-op)","Public School District",NA,"462 Baldwinville Road, Baldwinville, MA, 01436",-72.0740043,42.5878307
+"360",4930000,"Phoenix Academy Charter Public High School, Chelsea (District)","Charter District","09,10,11,12","175 Hawthorne Street, Chelsea, MA, 02150",-71.0337785,42.3924116
+"361",35180000,"Phoenix Academy Public Charter High School, Lawrence (District)","Charter District","09,10,11,12","15 Union Street, Lawrence, MA, 01840",-71.1531139,42.708399
+"362",35080000,"Phoenix Academy Public Charter High School, Springfield (District)","Charter District","09,10,11,12","65 Lincoln Street, Springfield, MA, 01109",-72.5763655,42.1107609
+"363",4940000,"Pioneer Charter School of Science (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","51-59 Summer Street, Everett, MA, 02149",-71.0510768,42.4082325
+"364",35060000,"Pioneer Charter School of Science II (District)","Charter District","K,01,02,03,07,08,09,10,11,12","97 Main Street, Saugus, MA, 01906",-71.0184549,42.4653332
+"365",7500000,"Pioneer Valley","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","97 F. Sumner Turner Road, Northfield, MA, 01360",-72.4850083,42.6834886
+"366",4970000,"Pioneer Valley Chinese Immersion Charter (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","317 Russell Street, Hadley, MA, 01035",-72.5581478,42.3529076
+"367",4790000,"Pioneer Valley Performing Arts Charter Public (District)","Charter District","07,08,09,10,11,12","15 Mulligan Drive, South Hadley, MA, 01075",-72.5993924,42.2412173
+"368",2360000,"Pittsfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","269 First Street, Pittsfield, MA, 01201",-73.2490187,42.4569462
+"369",2370000,"Plainfield (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"370",2380000,"Plainville","Public School District","PK,K,01,02,03,04,05,06","68 Messenger Street, Plainville, MA, 02762",-71.3024859,42.012445
+"371",2390000,"Plymouth","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","11 Lincoln Street, Plymouth, MA, 02360",-70.6584848,41.953884
+"372",2400000,"Plympton","Public School District","K,01,02,03,04,05,06","250 Pembroke Street, Kingston, MA, 02364",-70.7815667,42.0153353
+"373",2410000,"Princeton (non-op)","Public School District",NA,"1745 Main Street, Jefferson, MA, 01522",-71.8869632,42.3622
+"374",4870000,"Prospect Hill Academy Charter (District)","Charter District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","50 Essex Street, Cambridge, MA, 02139",-71.1009159,42.3676322
+"375",2420000,"Provincetown","Public School District","PK,K,01,02,03,04,05,06,07,08","Provincetown Schools, Provincetown, MA, 02657",-70.2051148,42.0603841
+"376",7530000,"Quabbin","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","872 South Street, Barre, MA, 01005",-72.1135912,42.3984438
+"377",7780000,"Quaboag Regional","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","284 Old West Brookfield Road, PO Box 1538, Warren, MA, 01083",-72.1880746,42.2205068
+"378",2430000,"Quincy","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","34 Coddington Street, Quincy, MA, 02169",-71.0018442,42.2526711
+"379",7550000,"Ralph C Mahar","Public School District","07,08,09,10,11,12","507 South Main Street, Orange, MA, 01364",-72.3023634,42.5745304
+"380",2440000,"Randolph","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","40 Highland Avenue, Randolph, MA, 02368",-71.0445767,42.1613808
+"381",2450000,"Raynham (non-op)","Public School District",NA,"166 Mt. Prospect Street, Bridgewater, MA, 02324",-70.9841852,41.9886635
+"382",2460000,"Reading","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","82 Oakland Road, Reading, MA, 01867",-71.1081751,42.536282
+"383",2470000,"Rehoboth (non-op)","Public School District",NA,"2700 Regional Road, North Dighton, MA, 02764",-71.1969072,41.852654
+"384",2480000,"Revere","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","101 School Street, Revere, MA, 02151",-71.0072459,42.4123065
+"385",2490000,"Richmond","Public School District","PK,K,01,02,03,04,05,06,07,08","1831 State Road, Richmond, MA, 01254",-73.3671333,42.3815832
+"386",4830000,"Rising Tide Charter Public (District)","Charter District","05,06,07,08,09,10,11,12","59 Armstrong Road, Plymouth, MA, 02360",-70.6966812,41.9573227
+"387",4820000,"River Valley Charter (District)","Charter District","K,01,02,03,04,05,06,07,08","2 Perry Way, Newburyport, MA, 01950",-70.8866786,42.8072232
+"388",2500000,"Rochester","Public School District","PK,K,01,02,03,04,05,06","135 Marion Rd, Mattapoisett, MA, 02739",-70.7785469,41.673999
+"389",2510000,"Rockland","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","34 MacKinlay Way, Rockland, MA, 02370",-70.916691,42.1284962
+"390",2520000,"Rockport","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","24 Jerdens Lane, Rockport, MA, 01966",-70.6090404,42.6521387
+"391",2530000,"Rowe","Public School District","PK,K,01,02,03,04,05,06","86 Pond Road, Rowe, MA, 01367",-72.88911,42.704946
+"392",2540000,"Rowley (non-op)","Public School District",NA,"112 Elm Street, Byfield, MA, 01922",-70.919775,42.748035
+"393",4840000,"Roxbury Preparatory Charter (District)","Charter District","05,06,07,08,09,10,11,12","120 Fisher Avenue, Roxbury, MA, 02120",-71.1051624,42.327615
+"394",2550000,"Royalston (non-op)","Public School District",NA,"250 South Main Street, Athol, MA, 01331",-72.2423702,42.5904219
+"395",2560000,"Russell (non-op)","Public School District",NA,"12 Littleville Road, Huntington, MA, 01050",-72.8701362,42.251203
+"396",2570000,"Rutland (non-op)","Public School District",NA,"1745 Main Street, Jefferson, MA, 01522",-71.8869632,42.3622
+"397",2580000,"Salem","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","29 Highland Avenue, Salem, MA, 01970",-70.9051699,42.514475
+"398",4850000,"Salem Academy Charter (District)","Charter District","06,07,08,09,10,11,12","45 Congress Street, c/o Shetland Pk, Salem, MA, 01970",-70.8876428,42.5182039
+"399",2590000,"Salisbury (non-op)","Public School District",NA,"112 Elm Street, Byfield, MA, 01922",-70.919775,42.748035
+"400",2600000,"Sandisfield (non-op)","Public School District",NA,"555 N Main, POB 679, Otis, MA, 01253",-73.096278,42.205114
+"401",2610000,"Sandwich","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","270 Quaker Meeting House Road, East Sandwich, MA, 02537",-70.460554,41.7212742
+"402",2620000,"Saugus","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","25 Dow Street, Saugus, MA, 01906",-71.0143945,42.4582779
+"403",2630000,"Savoy","Public School District","PK,K,01,02,03,04,05,06","26 Chapel Road, Savoy, MA, 01256",-72.9952659,42.5694854
+"404",2640000,"Scituate","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","606 C J Cushing Hwy, Scituate, MA, 02066",-70.7693484,42.1997402
+"405",2650000,"Seekonk","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","25 Water Lane, Seekonk, MA, 02771",-71.3312708,41.8598472
+"406",2660000,"Sharon","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","75 Mountain Street, Sharon, MA, 02067",-71.1651334,42.1067443
+"407",8710000,"Shawsheen Valley Regional Vocational Technical","Public School District","09,10,11,12","100 Cook Street, Billerica, MA, 01821",-71.2180484,42.5475101
+"408",2670000,"Sheffield (non-op)","Public School District",NA,"491 Berkshire School Road, P. O. Box 339, Sheffield, MA, 01257",-73.3748542,42.1060057
+"409",2680000,"Shelburne (non-op)","Public School District",NA,"24 Ashfield Rd, Shelburne Falls, MA, 01370",-72.7557512,42.6164439
+"410",2690000,"Sherborn","Public School District","PK,K,01,02,03,04,05","157 Farm Street, Dover, MA, 02030",-71.324257,42.219256
+"411",2700000,"Shirley (non-op)","Public School District",NA,"34 Lancaster Rd, Shirley, MA, 01464",-71.6560559,42.5392998
+"412",2710000,"Shrewsbury","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","100 Maple Avenue, Shrewsbury, MA, 01545",-71.722228,42.2914601
+"413",2720000,"Shutesbury","Public School District","PK,K,01,02,03,04,05,06","PO Box 7, Erving, MA, 01344",-72.4435674,42.6131079
+"414",7600000,"Silver Lake","Public School District","07,08,09,10,11,12","250 Pembroke Street, Kingston, MA, 02364",-70.7815667,42.0153353
+"415",4740000,"Sizer School: A North Central Charter Essential (District)","Charter District","07,08,09,10,11,12","500 Rindge Road, Fitchburg, MA, 01420",-71.8022507,42.6020438
+"416",2730000,"Somerset","Public School District","PK,K,01,02,03,04,05,06,07,08","580 Whetstone Hill Road, Somerset, MA, 02726",-71.1467377,41.777887
+"417",7630000,"Somerset Berkley Regional School District","Public School District","09,10,11,12","580 Whetstone Hill, Somerset, MA, 02726",-71.1467377,41.777887
+"418",2740000,"Somerville","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","167 Holland Street, Somerville, MA, 02144",-71.1257328,42.4009829
+"419",2780000,"South Hadley","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","116 Main Street, South Hadley, MA, 01075",-72.5950184,42.214971
+"420",8290000,"South Middlesex Regional Vocational Technical","Public School District","09,10,11,12","750 Winter Street, Framingham, MA, 01702",-71.4353167,42.276134
+"421",4880000,"South Shore Charter Public (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","100 Longwater Circle, Norwell, MA, 02061",-70.8812908,42.1566746
+"422",8730000,"South Shore Regional Vocational Technical","Public School District","09,10,11,12","476 Webster Street, Hanover, MA, 02339",-70.8632626,42.1474246
+"423",2750000,"Southampton","Public School District","PK,K,01,02,03,04,05,06","19 Stage Rd, Westhampton, MA, 01027",-72.7717261,42.3028161
+"424",2760000,"Southborough","Public School District","PK,K,01,02,03,04,05,06,07,08","53 Parkerville Road, Southborough, MA, 01772",-71.5398557,42.2952835
+"425",2770000,"Southbridge","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","132 Torrey Rd, Southbridge, MA, 01550",-72.00666,42.08532
+"426",8720000,"Southeastern Regional Vocational Technical","Public School District","09,10,11,12","250 Foundry Street, South Easton, MA, 02375",-71.0817449,42.010131
+"427",7650000,"Southern Berkshire","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","PO BOX 339, Sheffield, MA, 01257",-73.3944466,42.0937726
+"428",8760000,"Southern Worcester County Regional Vocational School District","Public School District","09,10,11,12","57 Old Muggett Hill Road, Charlton, MA, 01507",-71.9658357,42.1322945
+"429",3530000,"Southfield (non-op)","Public School District",NA,"223 Shea Memorial Drive, c/o South Shore Tri-Town Development Corporation, South Weymouth, MA, 02190",-70.9453384,42.1649989
+"430",2790000,"Southwick (non-op)","Public School District",NA,"86 Powder Mill Road, Southwick, MA, 01077",-72.7475796,42.0606233
+"431",7660000,"Southwick-Tolland-Granville Regional School District","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","86 Powder Mill Road, Southwick, MA, 01077",-72.7475796,42.0606233
+"432",2800000,"Spencer (non-op)","Public School District",NA,"306 Main Street, Spencer, MA, 01562",-71.9782799,42.2506102
+"433",7670000,"Spencer-E Brookfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","306 Main Street, Spencer, MA, 01562",-71.9782799,42.2506102
+"434",2810000,"Springfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1550 Main Street, Springfield, MA, 01103",-72.5929348,42.103207
+"435",4410000,"Springfield International Charter (District)","Charter District","K,01,02,03,04,05,06,07,08,09,10,11,12","160 Joan Street, Springfield, MA, 01129",-72.4840937,42.126388
+"436",35100000,"Springfield Preparatory Charter School (District)","Charter District","K,01,02,03,04,05,06,07,08","2071 Roosevelt Avenue, Springfield, MA, 01104",-72.5465711,42.1377542
+"437",2820000,"Sterling (non-op)","Public School District",NA,"1745 Main Street, Jefferson, MA, 01522",-71.8869632,42.3622
+"438",2830000,"Stockbridge (non-op)","Public School District",NA,"207 Pleasant Street, PO Box 596, Housatonic, MA, 01236",-73.3662214,42.2542548
+"439",2840000,"Stoneham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","149 Franklin Street, Stoneham, MA, 02180",-71.0886959,42.4723256
+"440",2850000,"Stoughton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","31 Pierce Street, Stoughton, MA, 02072",-71.0967367,42.1237142
+"441",2860000,"Stow (non-op)","Public School District",NA,"50 Mechanic Street, Bolton, MA, 01740",-71.6079814,42.4314235
+"442",2870000,"Sturbridge","Public School District","PK,K,01,02,03,04,05,06","320 Brookfield Rd, Fiskdale, MA, 01518",-72.125763,42.16108
+"443",4890000,"Sturgis Charter Public (District)","Charter District","09,10,11,12","427 Main Street, Hyannis, MA, 02601",-70.2851976,41.6518497
+"444",2880000,"Sudbury","Public School District","PK,K,01,02,03,04,05,06,07,08","40 Fairbank Road, Sudbury, MA, 01776",-71.4430914,42.3930497
+"445",2890000,"Sunderland","Public School District","PK,K,01,02,03,04,05,06","113 North Main Street, Office C101, South Deerfield, MA, 01373",-72.6056788,42.4834655
+"446",2900000,"Sutton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","383 Boston Rd, Sutton, MA, 01590",-71.7720666,42.1424704
+"447",2910000,"Swampscott","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","207 Forest Avenue, Swampscott, MA, 01907",-70.9025817,42.4737001
+"448",2920000,"Swansea","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1 Gardners Neck Road, Swansea, MA, 02777",-71.1958875,41.7491529
+"449",39020000,"TEC Connections Academy Commonwealth Virtual School District","Public School District","K,01,02,03,04,05,06,07,08,09,10,11,12","141 Mansion Drive, East Walpole, MA, 02032",-71.2205623,42.164104
+"450",7700000,"Tantasqua","Public School District","07,08,09,10,11,12","320A Brookfield Rd, Fiskdale, MA, 01518",-72.1268809,42.1600986
+"451",2930000,"Taunton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","215 Harris Street, Taunton, MA, 02780",-71.0656621,41.9020613
+"452",2940000,"Templeton (non-op)","Public School District",NA,"462 Baldwinville Road, Baldwinville, MA, 01436",-72.0740043,42.5878307
+"453",2950000,"Tewksbury","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","139 Pleasant Street, Tewksbury, MA, 01876",-71.2368872,42.608777
+"454",2960000,"Tisbury","Public School District","PK,K,01,02,03,04,05,06,07,08","4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"455",2970000,"Tolland (non-op)","Public School District",NA,"86 Powder Mill Road, Southwick, MA, 01077",-72.7475796,42.0606233
+"456",2980000,"Topsfield","Public School District","PK,K,01,02,03,04,05,06","28 Middleton Road, Boxford, MA, 01921",-71.0019141,42.6601002
+"457",2990000,"Townsend (non-op)","Public School District",NA,"23 Main Street, Townsend, MA, 01469",-71.660831,42.6516817
+"458",8780000,"Tri-County Regional Vocational Technical","Public School District","09,10,11,12","147 Pond Street, Franklin, MA, 02038",-71.4195639,42.0944208
+"459",7730000,"Triton","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","112 Elm Street, Byfield, MA, 01922",-70.919775,42.748035
+"460",3000000,"Truro","Public School District","PK,K,01,02,03,04,05,06","P O Box 2029, Truro, MA, 02666",-70.0562686,41.9907636
+"461",3010000,"Tyngsborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","50 Norris Rd, Tyngsborough, MA, 01879",-71.4065375,42.6966447
+"462",3020000,"Tyringham (non-op)","Public School District",NA,"300A Greylock Street, Lee, MA, 01238",-73.239279,42.306676
+"463",4800000,"UP Academy Charter School of Boston (District)","Charter District","06,07,08","215 Dorchester Street, Boston, MA, 02127",-71.0507518,42.3336303
+"464",35050000,"UP Academy Charter School of Dorchester (District)","Charter District","PK,K,01,02,03,04,05,06,07,08","35 Westville Street, Boston, MA, 02124",-71.0708363,42.2996377
+"465",7740000,"Up-Island Regional","Public School District","PK,K,01,02,03,04,05,06,07,08","4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"466",8790000,"Upper Cape Cod Regional Vocational Technical","Public School District","09,10,11,12","220 Sandwich Rd, Bourne, MA, 02532",-70.5804468,41.7467157
+"467",3030000,"Upton (non-op)","Public School District",NA,"150 North Ave, POB 5, Mendon, MA, 01756",-71.5726503,42.1311539
+"468",3040000,"Uxbridge","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","9 North Main Street, Uxbridge, MA, 01569",-71.629587,42.0771123
+"469",4980000,"Veritas Preparatory Charter School (District)","Charter District","05,06,07,08,09,10","370 Pine Street, Springfield, MA, 01105",-72.5751297,42.0942664
+"470",7750000,"Wachusett","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1745 Main Street, c/o Jefferson School, Jefferson, MA, 01522",-71.8869632,42.3622
+"471",3050000,"Wakefield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","60 Farm Street, Wakefield, MA, 01880",-71.0650993,42.5185717
+"472",3060000,"Wales","Public School District","PK,K,01,02,03,04,05,06","320 Brookfield Rd, Fiskdale, MA, 01518",-72.125763,42.16108
+"473",3070000,"Walpole","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","135 School Street, Walpole, MA, 02081",-71.249971,42.145508
+"474",3080000,"Waltham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","617 Lexington Street, Waltham, MA, 02452",-71.2301698,42.3948924
+"475",3090000,"Ware","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","P O Box 240, Ware, MA, 01082",-72.2398566,42.2598457
+"476",3100000,"Wareham","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","Central Office, 4 Viking Drive, Door 22, Wareham, MA, 02571",-70.7228407,41.7596611
+"477",3110000,"Warren (non-op)","Public School District",NA,"284 Old West Brookfield Road, PO Box 1538, Warren, MA, 01083",-72.1880746,42.2205068
+"478",3120000,"Warwick","Public School District","K,01,02,03,04,05,06","41 Winchester Rd, Warwick, MA, 01378",-72.3400086,42.6867767
+"479",3130000,"Washington (non-op)","Public School District",NA,"PO Box 299, Dalton, MA, 01227",-73.17,42.47
+"480",3140000,"Watertown","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","30 Common Street, Watertown, MA, 02472",-71.1793835,42.3691584
+"481",3150000,"Wayland","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","41 Cochituate Rd, Wayland, MA, 01778",-71.3617557,42.3605975
+"482",3160000,"Webster","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","77 Poland Street, Webster, MA, 01570",-71.8713115,42.0416791
+"483",3170000,"Wellesley","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","40 Kingsbury Street, Wellesley, MA, 02481",-71.2897325,42.3039567
+"484",3180000,"Wellfleet","Public School District","K,01,02,03,04,05","78 Eldredge Pkwy, Orleans, MA, 02653",-69.9898744,41.781657
+"485",3190000,"Wendell (non-op)","Public School District",NA,"PO Box 7, Erving, MA, 01344",-72.4435674,42.6131079
+"486",3200000,"Wenham (non-op)","Public School District",NA,"5 School Street, Wenham, MA, 01984",-70.8865354,42.6079873
+"487",3220000,"West Boylston","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","125 Crescent Street, West Boylston, MA, 01583",-71.7912009,42.3734769
+"488",3230000,"West Bridgewater","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","2 Spring Street, West Bridgewater, MA, 02379",-71.0150252,42.0207537
+"489",3240000,"West Brookfield (non-op)","Public School District",NA,"48 High Street, PO Box 1538, Warren, MA, 01083",-72.2156517,42.2217737
+"490",3290000,"West Newbury (non-op)","Public School District",NA,"22 Main Street, West Newbury, MA, 01985",-71.0133379,42.7781437
+"491",3320000,"West Springfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","11 Central Street, West Springfield, MA, 01089",-72.6226783,42.105676
+"492",3330000,"West Stockbridge (non-op)","Public School District",NA,"207 Pleasant Street, PO Box 596, Housatonic, MA, 01236",-73.3662214,42.2542548
+"493",3340000,"West Tisbury (non-op)","Public School District",NA,"4 Pine Street, Vineyard Haven, MA, 02568",-70.6089933,41.4537456
+"494",3210000,"Westborough","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","45 West Main Street, Westborough, MA, 01581",-71.6149547,42.2682452
+"495",3250000,"Westfield","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","94 North Elm Street, Suite 101, Westfield, MA, 01085",-72.7435292,42.1321698
+"496",3260000,"Westford","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","23 Depot Street, Westford, MA, 01886",-71.4313997,42.588587
+"497",3270000,"Westhampton","Public School District","PK,K,01,02,03,04,05,06","19 Stage Rd, Westhampton, MA, 01027",-72.7717261,42.3028161
+"498",3280000,"Westminster (non-op)","Public School District",NA,"11 Oakmont Drive, Ashburnham, MA, 01430",-71.9235287,42.6037371
+"499",3300000,"Weston","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","89 Wellesley Street, Weston, MA, 02493",-71.2947334,42.3600666
+"500",3310000,"Westport","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","17 Main Rd, Westport, MA, 02790",-71.0802981,41.6212589
+"501",3350000,"Westwood","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","220 Nahatan Street, Westwood, MA, 02090",-71.2169515,42.2169138
+"502",3360000,"Weymouth","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","89 Middle Street, Weymouth, MA, 02189",-70.9399171,42.2209452
+"503",3370000,"Whately","Public School District","PK,K,01,02,03,04,05,06","113 North Main Street, Office C101, South Deerfield, MA, 01373",-72.6056788,42.4834655
+"504",3380000,"Whitman (non-op)","Public School District",NA,"610 Franklin Street, Whitman, MA, 02382",-70.9042492,42.0731147
+"505",7800000,"Whitman-Hanson","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","610 Franklin Street, Whitman, MA, 02382",-70.9042492,42.0731147
+"506",8850000,"Whittier Regional Vocational Technical","Public School District","09,10,11,12","115 Amesbury Line Rd, Haverhill, MA, 01830",-71.0238131,42.810285
+"507",3390000,"Wilbraham (non-op)","Public School District",NA,"621 Main Street, Wilbraham, MA, 01095",-72.444492,42.1109013
+"508",3400000,"Williamsburg","Public School District","PK,K,01,02,03,04,05,06","19 Stage Rd, Westhampton, MA, 01027",-72.7717261,42.3028161
+"509",3410000,"Williamstown (non-op)","Public School District",NA,"1781 Cold Spring Road, Williamstown, MA, 01267",-73.2414153,42.6714391
+"510",3420000,"Wilmington","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","161 Church Street, Wilmington, MA, 01887",-71.1642886,42.5552416
+"511",3430000,"Winchendon","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","175 Grove Street, Winchendon, MA, 01475",-72.0536809,42.6867402
+"512",3440000,"Winchester","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","40 Samoset Road, Winchester, MA, 01890",-71.162531,42.446096
+"513",3450000,"Windsor (non-op)","Public School District",NA,"PO Box 299, Dalton, MA, 01227",-73.17,42.47
+"514",3460000,"Winthrop","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","1 Metcalf Square, Winthrop, MA, 02152",-70.9846058,42.3776257
+"515",3470000,"Woburn","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","55 Locust Street, Woburn, MA, 01801",-71.1768554,42.4773085
+"516",3480000,"Worcester","Public School District","PK,K,01,02,03,04,05,06,07,08,09,10,11,12","20 Irving Street, Worcester, MA, 01609",-71.806595,42.2626684
+"517",35190000,"Worcester Cultural Academy Charter Public School (District)","Charter District","K,01,02,03,04","81 Plantation Street, Worcester, MA, 01604",-71.7827286,42.2566542
+"518",3490000,"Worthington","Public School District","PK,K,01,02,03,04,05,06","147 Huntington Road, Worthington, MA, 01098",-72.939017,42.399706
+"519",3500000,"Wrentham","Public School District","PK,K,01,02,03,04,05,06","120 Taunton Street, Wrentham, MA, 02093",-71.3262754,42.0614653
+"520",3510000,"Yarmouth (non-op)","Public School District",NA,"296 Station Avenue, South Yarmouth, MA, 02664",-70.199229,41.679416
